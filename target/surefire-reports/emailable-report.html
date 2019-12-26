@@ -9,15 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Functional tests</th></tr>
-<tr><td><a href="#t0">Onliner catalog tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">23,838</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Onliner catalog tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,972</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Functional tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Onliner catalog tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">by.onliner.test.suites.functional.QuadrocopterSearchResultsTest</td><td><a href="#m0">dummyTest</a></td><td rowspan="1">1577354506698</td><td rowspan="1">7</td></tr><tr class="failedodd"><td rowspan="1">by.onliner.test.suites.functional.RadiocontrolAirTest</td><td><a href="#m1">radiocontrolAirTest</a></td><td rowspan="1">1577354487738</td><td rowspan="1">16638</td></tr><tr><th colspan="4">Onliner catalog tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">by.onliner.test.suites.functional.RadiocontrolAirTest</td><td><a href="#m2">dummyTest2</a></td><td rowspan="1">1577354486573</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Functional tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Onliner catalog tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">by.onliner.test.suites.functional.RadiocontrolAirTest</td><td><a href="#m0">radiocontrolAirTest</a></td><td rowspan="1">1577363866577</td><td rowspan="1">23909</td></tr><tr><th colspan="4">Onliner catalog tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">by.onliner.test.suites.functional.QuadrocopterSearchResultsTest</td><td><a href="#m1">dummyTest</a></td><td rowspan="1">1577363892948</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">by.onliner.test.suites.functional.RadiocontrolAirTest</td><td><a href="#m2">dummyTest2</a></td><td rowspan="1">1577363865015</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Onliner catalog tests</h2><h3 id="m0">by.onliner.test.suites.functional.QuadrocopterSearchResultsTest#dummyTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [4] but found [2]
-	at by.onliner.test.suites.functional.QuadrocopterSearchResultsTest.dummyTest(QuadrocopterSearchResultsTest.java:22)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">by.onliner.test.suites.functional.RadiocontrolAirTest#radiocontrolAirTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control&apos;]//span[contains(text(),&apos;Найдено 1021&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+<h2>Onliner catalog tests</h2><h3 id="m0">by.onliner.test.suites.functional.RadiocontrolAirTest#radiocontrolAirTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control&apos;]//span[contains(text(),&apos;Найдено 1021&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at by.onliner.webapp.pages.RadiocontrolAirPage.verifyThatNumberOfSearchResultsEqualsTo(RadiocontrolAirPage.java:160)
@@ -29,8 +25,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;BY-IT00034&apos;, ip: &apos;10.227.6.97&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAXIM~1.VOL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b41f310be5d56a697a183e1e608b2d75
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAXIM~1.VOL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d811e2f2cb27619eaa2a8d054101c44
 *** Element info: {Using=xpath, value=//div[@class=&apos;schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control&apos;]//span[contains(text(),&apos;Найдено 1021&apos;)]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -47,6 +43,7 @@ Session ID: b41f310be5d56a697a183e1e608b2d75
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 34 more
 ... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">by.onliner.test.suites.functional.QuadrocopterSearchResultsTest#dummyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">by.onliner.test.suites.functional.RadiocontrolAirTest#dummyTest2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

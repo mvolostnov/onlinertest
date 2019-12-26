@@ -5,15 +5,6 @@
   <parameter name="browser" value="Chrome"/>
   <test thread-count="5" verbose="0" name="Onliner catalog tests(failed)">
     <classes>
-      <class name="by.onliner.test.suites.functional.QuadrocopterSearchResultsTest">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeEachTest"/>
-          <include name="dummyTest"/>
-          <include name="browserSetup"/>
-          <include name="browserTearDown"/>
-        </methods>
-      </class> <!-- by.onliner.test.suites.functional.QuadrocopterSearchResultsTest -->
       <class name="by.onliner.test.suites.functional.RadiocontrolAirTest">
         <methods>
           <include name="afterMethod"/>

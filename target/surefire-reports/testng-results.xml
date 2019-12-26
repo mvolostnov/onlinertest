@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="2" total="5" passed="1">
+<testng-results skipped="0" failed="1" ignored="2" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Functional tests" duration-ms="23838" started-at="2019-12-26T13:01:23 MSK" finished-at="2019-12-26T13:01:47 MSK">
+  <suite name="Functional tests" duration-ms="30972" started-at="2019-12-26T15:37:42 MSK" finished-at="2019-12-26T15:38:13 MSK">
     <groups>
     </groups>
-    <test name="Onliner catalog tests" duration-ms="23838" started-at="2019-12-26T13:01:23 MSK" finished-at="2019-12-26T13:01:47 MSK">
+    <test name="Onliner catalog tests" duration-ms="30972" started-at="2019-12-26T15:37:42 MSK" finished-at="2019-12-26T15:38:13 MSK">
       <class name="by.onliner.test.suites.functional.QuadrocopterSearchResultsTest">
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4]" name="beforeEachTest" is-config="true" duration-ms="1867" started-at="2019-12-26T13:01:44 MSK" finished-at="2019-12-26T13:01:46 MSK">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4]" name="beforeEachTest" is-config="true" duration-ms="2006" started-at="2019-12-26T15:38:10 MSK" finished-at="2019-12-26T15:38:12 MSK">
           <params>
             <param index="0">
               <value>
@@ -18,62 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="FAIL" signature="dummyTest()[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4]" name="dummyTest" duration-ms="7" started-at="2019-12-26T13:01:46 MSK" description="Dummy test" finished-at="2019-12-26T13:01:46 MSK">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [4] but found [2]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [4] but found [2]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:839)
-at org.testng.Assert.assertEquals(Assert.java:849)
-at by.onliner.test.suites.functional.QuadrocopterSearchResultsTest.dummyTest(QuadrocopterSearchResultsTest.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="dummyTest()[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4]" name="dummyTest" duration-ms="1" started-at="2019-12-26T15:38:12 MSK" description="Dummy test" finished-at="2019-12-26T15:38:12 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4]" name="afterMethod" is-config="true" duration-ms="848" started-at="2019-12-26T13:01:46 MSK" finished-at="2019-12-26T13:01:47 MSK">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4]" name="afterMethod" is-config="true" duration-ms="100" started-at="2019-12-26T15:38:12 MSK" finished-at="2019-12-26T15:38:13 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dummyTest status=FAILURE method=QuadrocopterSearchResultsTest.dummyTest()[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4] output={null}]]]>
+                <![CDATA[[TestResult name=dummyTest status=SUCCESS method=QuadrocopterSearchResultsTest.dummyTest()[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@22a67b4] output={null}]]]>
               </value>
             </param>
           </params>
@@ -82,11 +35,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- afterMethod -->
       </class> <!-- by.onliner.test.suites.functional.QuadrocopterSearchResultsTest -->
       <class name="by.onliner.test.suites.functional.RadiocontrolAirTest">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="browserSetup" is-config="true" duration-ms="10276" started-at="2019-12-26T13:01:13 MSK" finished-at="2019-12-26T13:01:23 MSK">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="browserSetup" is-config="true" duration-ms="10664" started-at="2019-12-26T15:37:31 MSK" finished-at="2019-12-26T15:37:42 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="beforeEachTest" is-config="true" duration-ms="2812" started-at="2019-12-26T13:01:23 MSK" finished-at="2019-12-26T13:01:26 MSK">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="beforeEachTest" is-config="true" duration-ms="2864" started-at="2019-12-26T15:37:42 MSK" finished-at="2019-12-26T15:37:45 MSK">
           <params>
             <param index="0">
               <value>
@@ -97,11 +50,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="dummyTest2()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="dummyTest2" duration-ms="2" started-at="2019-12-26T13:01:26 MSK" description="Dummy test 2" finished-at="2019-12-26T13:01:26 MSK">
+        <test-method status="PASS" signature="dummyTest2()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="dummyTest2" duration-ms="2" started-at="2019-12-26T15:37:45 MSK" description="Dummy test 2" finished-at="2019-12-26T15:37:45 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest2 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="afterMethod" is-config="true" duration-ms="284" started-at="2019-12-26T13:01:26 MSK" finished-at="2019-12-26T13:01:26 MSK">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="afterMethod" is-config="true" duration-ms="447" started-at="2019-12-26T15:37:45 MSK" finished-at="2019-12-26T15:37:45 MSK">
           <params>
             <param index="0">
               <value>
@@ -112,7 +65,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="beforeEachTest" is-config="true" duration-ms="877" started-at="2019-12-26T13:01:26 MSK" finished-at="2019-12-26T13:01:27 MSK">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="beforeEachTest" is-config="true" duration-ms="1110" started-at="2019-12-26T15:37:45 MSK" finished-at="2019-12-26T15:37:46 MSK">
           <params>
             <param index="0">
               <value>
@@ -123,7 +76,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="FAIL" signature="radiocontrolAirTest()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="radiocontrolAirTest" duration-ms="16638" started-at="2019-12-26T13:01:27 MSK" description="Header Радиоуправляемые авиамодели test" finished-at="2019-12-26T13:01:44 MSK">
+        <test-method status="FAIL" signature="radiocontrolAirTest()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="radiocontrolAirTest" duration-ms="23909" started-at="2019-12-26T15:37:46 MSK" description="Header Радиоуправляемые авиамодели test" finished-at="2019-12-26T15:38:10 MSK">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control']//span[contains(text(),'Найдено 1021')] (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -172,8 +125,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BY-IT00034', ip: '10.227.6.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAXIM~1.VOL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b41f310be5d56a697a183e1e608b2d75
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAXIM~1.VOL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d811e2f2cb27619eaa2a8d054101c44
 *** Element info: {Using=xpath, value=//div[@class='schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control']//span[contains(text(),'Найдено 1021')]}
 at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -198,7 +151,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radiocontrolAirTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="afterMethod" is-config="true" duration-ms="445" started-at="2019-12-26T13:01:44 MSK" finished-at="2019-12-26T13:01:44 MSK">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="afterMethod" is-config="true" duration-ms="450" started-at="2019-12-26T15:38:10 MSK" finished-at="2019-12-26T15:38:10 MSK">
           <params>
             <param index="0">
               <value>
@@ -209,7 +162,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="browserTearDown" is-config="true" duration-ms="768" started-at="2019-12-26T13:01:47 MSK" finished-at="2019-12-26T13:01:48 MSK">
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@79be0360]" name="browserTearDown" is-config="true" duration-ms="838" started-at="2019-12-26T15:38:13 MSK" finished-at="2019-12-26T15:38:13 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTearDown -->

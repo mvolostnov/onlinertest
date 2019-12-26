@@ -85,9 +85,9 @@ public class BaseTest {
                 // Copy files to specific location
                 // result.getName() will return name of test case so that screenshot name will be same as test case name
                 String screenShotPath = SCREENSHOTS_PATH + LocalDateTime.now().toString().replaceAll(":", "-") + result.getName() + ".png";
-//                FileUtils.copyFile(src, new File(screenShotPath));
+                FileUtils.copyFile(src, new File(screenShotPath));
                 System.out.println("Successfully captured a screenshot");
-                extentTest.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath).build());
+                extentTest.fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath).build());
 
                 } catch (Exception e){
                     System.out.println("Exception while taking screenshot "+e.getMessage());

@@ -28,7 +28,7 @@ public  class RadiocontrolAirTest extends BaseTest {
                 .scrollToLeftMenuElement("Дальность действия, м")
                 .openAdditionalParameters()
                 .selectLeftMenuItem("бесколлекторный")
-                .verifyThatNumberOfSearchResultsEqualsTo(102)
+                .verifyThatNumberOfSearchResultsEqualsTo(1021)
                 .scrollToPageHeader()
                 .selectSortingBy("Дешевые")
                 .verifyThatSortingIsCorrect()

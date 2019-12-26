@@ -1,23 +1,23 @@
-2019-12-26 13:01:19 INFO  BaseTest:46 - Open browser ChromeDriver: chrome on WINDOWS (b41f310be5d56a697a183e1e608b2d75)
-2019-12-26 13:01:23 INFO  BaseTest:49 - Maximize browser's window
-2019-12-26 13:01:26 INFO  BaseTest:62 - Open https://onliner.by/
-2019-12-26 13:01:26 INFO  RadiocontrolAirTest:62 -  !!! Startring test: Test #2.2 !!!
-2019-12-26 13:01:27 INFO  BaseTest:62 - Open https://onliner.by/
-2019-12-26 13:01:29 INFO  OnlinerHomePage:30 - Open Top Menu Section: Каталог
-2019-12-26 13:01:29 INFO  OnlinerCatalogPage:44 - Select Catalog Category: Красота и спорт
-2019-12-26 13:01:30 INFO  OnlinerCatalogPage:51 - Select Catalog SubCategory: Хобби
-2019-12-26 13:01:32 INFO  OnlinerCatalogPage:58 - Select Catalog SubCategory: Радиоуправляемые авиамодели
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:146 - Checking Page Header
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:148 - Page header name is correct: Радиоуправляемые авиамодели
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:71 - Scroll to Left Menu Element: Тип
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: квадрокоптер
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: пластик
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: металл
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:109 - Set Minimal Range: 100
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:71 - Scroll to Left Menu Element: Дальность действия, м
-2019-12-26 13:01:33 INFO  RadiocontrolAirPage:115 - Open Additional Parameters
-2019-12-26 13:01:34 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: бесколлекторный
-2019-12-26 13:01:34 INFO  RadiocontrolAirPage:157 - Verification that Number of Search Results is correct
-2019-12-26 13:01:46 INFO  BaseTest:62 - Open https://onliner.by/
-2019-12-26 13:01:46 INFO  QuadrocopterSearchResultsTest:21 -  !!! Startring test: Test #2 !!!
-2019-12-26 13:01:47 INFO  BaseTest:68 - Close browserChromeDriver: chrome on WINDOWS (b41f310be5d56a697a183e1e608b2d75)
+2019-12-26 15:37:37 INFO  BaseTest:46 - Open browser ChromeDriver: chrome on WINDOWS (4d811e2f2cb27619eaa2a8d054101c44)
+2019-12-26 15:37:42 INFO  BaseTest:49 - Maximize browser's window
+2019-12-26 15:37:45 INFO  BaseTest:62 - Open https://onliner.by/
+2019-12-26 15:37:45 INFO  RadiocontrolAirTest:62 -  !!! Startring test: Test #2.2 !!!
+2019-12-26 15:37:46 INFO  BaseTest:62 - Open https://onliner.by/
+2019-12-26 15:37:49 INFO  OnlinerHomePage:30 - Open Top Menu Section: Каталог
+2019-12-26 15:37:49 INFO  OnlinerCatalogPage:44 - Select Catalog Category: Красота и спорт
+2019-12-26 15:37:50 INFO  OnlinerCatalogPage:51 - Select Catalog SubCategory: Хобби
+2019-12-26 15:37:54 INFO  OnlinerCatalogPage:58 - Select Catalog SubCategory: Радиоуправляемые авиамодели
+2019-12-26 15:37:55 INFO  RadiocontrolAirPage:146 - Checking Page Header
+2019-12-26 15:37:55 INFO  RadiocontrolAirPage:148 - Page header name is correct: Радиоуправляемые авиамодели
+2019-12-26 15:37:55 INFO  RadiocontrolAirPage:71 - Scroll to Left Menu Element: Тип
+2019-12-26 15:37:56 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: квадрокоптер
+2019-12-26 15:37:58 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: пластик
+2019-12-26 15:37:58 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: металл
+2019-12-26 15:37:58 INFO  RadiocontrolAirPage:109 - Set Minimal Range: 100
+2019-12-26 15:37:58 INFO  RadiocontrolAirPage:71 - Scroll to Left Menu Element: Дальность действия, м
+2019-12-26 15:37:59 INFO  RadiocontrolAirPage:115 - Open Additional Parameters
+2019-12-26 15:38:00 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: бесколлекторный
+2019-12-26 15:38:00 INFO  RadiocontrolAirPage:157 - Verification that Number of Search Results is correct
+2019-12-26 15:38:12 INFO  BaseTest:62 - Open https://onliner.by/
+2019-12-26 15:38:12 INFO  QuadrocopterSearchResultsTest:21 -  !!! Startring test: Test #2 !!!
+2019-12-26 15:38:13 INFO  BaseTest:68 - Close browserChromeDriver: chrome on WINDOWS (4d811e2f2cb27619eaa2a8d054101c44)
