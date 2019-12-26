@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="533c2dc9-c409-4f04-8875-002942aac80f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-09-04.679headerIsCorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-11-27.359headerIsCorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-12-32.809headerIsCorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-14-02.143headerIsCorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-25-06.221dummyTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T150427.869headerIsCorrect.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="TestNG Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TFP7EBiYI5se4PDQHg7Pnh6Cw4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/by/onliner/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.onliner.webapp" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="by.onliner.webapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.onliner.webapp" />
+      <recent name="by.onliner.test" />
+      <recent name="by.onliner.webapp.pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Automation\GitHub\onlinertest\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.onliner.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml">
+    <configuration name="D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlinertest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadrocopterSearchResultsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlinertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.onliner.test.suites.functional" />
+      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.QuadrocopterSearchResultsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadiocontrolAirTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlinertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.onliner.test.suites.functional" />
+      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.RadiocontrolAirTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadiocontrolAirTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onliner-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.onliner.test.suites.functional" />
+      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.RadiocontrolAirTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestResultsCountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlinertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.onliner.test.suites.functional" />
+      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.TestResultsCountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.QuadrocopterSearchResultsTest" />
+        <item itemvalue="TestNG.RadiocontrolAirTest (1)" />
+        <item itemvalue="TestNG.RadiocontrolAirTest (2)" />
+        <item itemvalue="TestNG.TestResultsCountTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="533c2dc9-c409-4f04-8875-002942aac80f" name="Default Changelist" comment="" />
+      <created>1573052700138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573052700138</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="782" y="410" key="FileChooserDialogImpl" timestamp="1577188963210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577188963210" />
+    <state width="1503" height="136" key="GridCell.Tab.0.bottom" timestamp="1577188965508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1503" height="136" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
+    <state width="1503" height="136" key="GridCell.Tab.0.center" timestamp="1577188965508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1503" height="136" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
+    <state width="1503" height="136" key="GridCell.Tab.0.left" timestamp="1577188965508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1503" height="136" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
+    <state width="1503" height="136" key="GridCell.Tab.0.right" timestamp="1577188965508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1503" height="136" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1576841739737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576841739737" />
+    <state x="375" y="162" key="SettingsEditor" timestamp="1576676562634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="375" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576676562634" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577102789157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577102789157" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/onlinertest$RadiocontrolAirTest.ic" NAME="RadiocontrolAirTest Coverage Results" MODIFIED="1573476543852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+  </component>
+</project>
