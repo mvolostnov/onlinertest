@@ -1,23 +1,101 @@
-2019-12-26 15:37:37 INFO  BaseTest:46 - Open browser ChromeDriver: chrome on WINDOWS (4d811e2f2cb27619eaa2a8d054101c44)
-2019-12-26 15:37:42 INFO  BaseTest:49 - Maximize browser's window
-2019-12-26 15:37:45 INFO  BaseTest:62 - Open https://onliner.by/
-2019-12-26 15:37:45 INFO  RadiocontrolAirTest:62 -  !!! Startring test: Test #2.2 !!!
-2019-12-26 15:37:46 INFO  BaseTest:62 - Open https://onliner.by/
-2019-12-26 15:37:49 INFO  OnlinerHomePage:30 - Open Top Menu Section: Каталог
-2019-12-26 15:37:49 INFO  OnlinerCatalogPage:44 - Select Catalog Category: Красота и спорт
-2019-12-26 15:37:50 INFO  OnlinerCatalogPage:51 - Select Catalog SubCategory: Хобби
-2019-12-26 15:37:54 INFO  OnlinerCatalogPage:58 - Select Catalog SubCategory: Радиоуправляемые авиамодели
-2019-12-26 15:37:55 INFO  RadiocontrolAirPage:146 - Checking Page Header
-2019-12-26 15:37:55 INFO  RadiocontrolAirPage:148 - Page header name is correct: Радиоуправляемые авиамодели
-2019-12-26 15:37:55 INFO  RadiocontrolAirPage:71 - Scroll to Left Menu Element: Тип
-2019-12-26 15:37:56 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: квадрокоптер
-2019-12-26 15:37:58 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: пластик
-2019-12-26 15:37:58 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: металл
-2019-12-26 15:37:58 INFO  RadiocontrolAirPage:109 - Set Minimal Range: 100
-2019-12-26 15:37:58 INFO  RadiocontrolAirPage:71 - Scroll to Left Menu Element: Дальность действия, м
-2019-12-26 15:37:59 INFO  RadiocontrolAirPage:115 - Open Additional Parameters
-2019-12-26 15:38:00 INFO  RadiocontrolAirPage:86 - Select Left Menu Item: бесколлекторный
-2019-12-26 15:38:00 INFO  RadiocontrolAirPage:157 - Verification that Number of Search Results is correct
-2019-12-26 15:38:12 INFO  BaseTest:62 - Open https://onliner.by/
-2019-12-26 15:38:12 INFO  QuadrocopterSearchResultsTest:21 -  !!! Startring test: Test #2 !!!
-2019-12-26 15:38:13 INFO  BaseTest:68 - Close browserChromeDriver: chrome on WINDOWS (4d811e2f2cb27619eaa2a8d054101c44)
+2020-01-17 12:08:58 INFO  BaseTest:60 - Open browser ChromeDriver: chrome on WINDOWS (aebef7fc683b17bb3a870761d35ab6e0)
+2020-01-17 12:09:02 INFO  BaseTest:63 - Maximize browser's window
+2020-01-17 12:09:06 INFO  BaseTest:79 - Openhttps://onliner.by/
+2020-01-17 12:09:06 INFO  RadiocontrolAirTest:103 -  !!! Startring test: Test #2.2 !!!
+2020-01-17 12:09:08 INFO  BaseTest:79 - Openhttps://onliner.by/
+2020-01-17 12:09:11 INFO  OnlinerHomePage:29 - Open Top Menu Section: Каталог
+2020-01-17 12:09:11 INFO  OnlinerCatalogPage:42 - Select Catalog Category: Красота и спорт
+2020-01-17 12:09:12 INFO  OnlinerCatalogPage:49 - Select Catalog SubCategory: Хобби
+2020-01-17 12:09:16 INFO  OnlinerCatalogPage:56 - Select Catalog SubCategory: Радиоуправляемые авиамодели
+2020-01-17 12:09:16 INFO  RadiocontrolAirPage:147 - Checking Page Header
+2020-01-17 12:09:16 INFO  RadiocontrolAirPage:149 - Page header name is correct: Радиоуправляемые авиамодели
+2020-01-17 12:09:16 INFO  RadiocontrolAirPage:64 - Scroll to Left Menu Element: Тип
+2020-01-17 12:09:16 INFO  RadiocontrolAirPage:79 - Select Left Menu Item: квадрокоптер
+2020-01-17 12:09:17 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: металл
+2020-01-17 12:09:17 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: пластик
+2020-01-17 12:09:17 INFO  RadiocontrolAirPage:111 - Set Minimal Range: 100
+2020-01-17 12:09:17 INFO  RadiocontrolAirPage:64 - Scroll to Left Menu Element: Дальность действия, м
+2020-01-17 12:09:18 INFO  RadiocontrolAirPage:117 - Open Additional Parameters
+2020-01-17 12:09:18 INFO  RadiocontrolAirPage:79 - Select Left Menu Item: бесколлекторный
+2020-01-17 12:09:18 INFO  RadiocontrolAirPage:158 - Verification that Number of Search Results is correct
+2020-01-17 12:09:19 INFO  RadiocontrolAirPage:165 - numberOfSearchResults: 102
+2020-01-17 12:09:19 INFO  RadiocontrolAirPage:71 - Scroll to Page Header
+2020-01-17 12:09:19 INFO  RadiocontrolAirPage:96 - Open Sorting menu
+2020-01-17 12:09:19 INFO  RadiocontrolAirPage:104 - Select Sorting by: Дешевые
+2020-01-17 12:09:19 INFO  RadiocontrolAirPage:172 - Verify that Sorting is correct
+2020-01-17 12:09:21 INFO  RadiocontrolAirPage:205 - Sorting is Correct: 145.0 > 99.0
+2020-01-17 12:09:21 INFO  RadiocontrolAirPage:129 - Select product № 0
+2020-01-17 12:09:21 INFO  RadiocontrolAirPage:129 - Select product № 2
+2020-01-17 12:09:22 INFO  RadiocontrolAirPage:129 - Select product № 4
+2020-01-17 12:09:22 INFO  RadiocontrolAirPage:129 - Select product № 5
+2020-01-17 12:09:22 INFO  RadiocontrolAirPage:211 - Verify That Compare Button contains 4 products
+2020-01-17 12:09:23 INFO  RadiocontrolAirPage:226 - Passed
+2020-01-17 12:09:25 INFO  RadiocontrolAirPage:137 - Open Comparison
+2020-01-17 12:09:28 INFO  ComparisonPage:30 - Select Compared Product Index 1
+2020-01-17 12:09:28 INFO  ProductPage:77 - Verify That Product Description contains: квадрокоптер
+2020-01-17 12:09:28 INFO  ProductPage:79 - Passed
+2020-01-17 12:09:28 INFO  ProductPage:91 - Select Left Menu Item: металл
+2020-01-17 12:09:28 INFO  ProductPage:77 - Verify That Product Description contains: бесколлекторный
+2020-01-17 12:09:28 INFO  ProductPage:79 - Passed
+2020-01-17 12:09:28 INFO  ProductPage:45 - Add Product To Cart
+2020-01-17 12:09:28 INFO  ProductPage:62 - Verify Number Of Products In Cart Header
+2020-01-17 12:09:28 INFO  ProductPage:66 - Passed
+2020-01-17 12:09:30 INFO  ProductPage:55 - Open Cart in Header
+2020-01-17 12:09:30 INFO  CartPage:41 - Click Plus Button
+2020-01-17 12:09:30 INFO  CartPage:46 - Verify That Total Price is correct
+2020-01-17 12:09:30 INFO  CartPage:52 - singlePriceToDouble = 298.0
+2020-01-17 12:09:30 INFO  CartPage:55 - singlePriceToDouble = 298.0
+2020-01-17 12:09:30 INFO  CartPage:58 - Passed
+2020-01-17 12:09:31 INFO  CartPage:65 - Do Checkout
+2020-01-17 12:09:31 INFO  CartPage:70 - Verify That Login Popup appears
+2020-01-17 12:09:31 INFO  CartPage:75 - Passed
+2020-01-17 12:09:33 INFO  BaseTest:79 - Openhttps://onliner.by/
+2020-01-17 12:09:35 INFO  OnlinerHomePage:29 - Open Top Menu Section: Каталог
+2020-01-17 12:09:35 INFO  OnlinerCatalogPage:42 - Select Catalog Category: Красота и спорт
+2020-01-17 12:09:36 INFO  OnlinerCatalogPage:49 - Select Catalog SubCategory: Хобби
+2020-01-17 12:09:39 INFO  OnlinerCatalogPage:56 - Select Catalog SubCategory: Радиоуправляемые авиамодели
+2020-01-17 12:09:39 INFO  RadiocontrolAirPage:147 - Checking Page Header
+2020-01-17 12:09:39 INFO  RadiocontrolAirPage:149 - Page header name is correct: Радиоуправляемые авиамодели
+2020-01-17 12:09:39 INFO  RadiocontrolAirPage:64 - Scroll to Left Menu Element: Тип
+2020-01-17 12:09:39 INFO  RadiocontrolAirPage:79 - Select Left Menu Item: квадрокоптер
+2020-01-17 12:09:40 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: пластик
+2020-01-17 12:09:40 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: бальза
+2020-01-17 12:09:41 INFO  RadiocontrolAirPage:111 - Set Minimal Range: 200
+2020-01-17 12:09:41 INFO  RadiocontrolAirPage:64 - Scroll to Left Menu Element: Дальность действия, м
+2020-01-17 12:09:41 INFO  RadiocontrolAirPage:117 - Open Additional Parameters
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:79 - Select Left Menu Item: бесколлекторный
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:158 - Verification that Number of Search Results is correct
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:165 - numberOfSearchResults: 87
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:71 - Scroll to Page Header
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:96 - Open Sorting menu
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:104 - Select Sorting by: Дешевые
+2020-01-17 12:09:42 INFO  RadiocontrolAirPage:172 - Verify that Sorting is correct
+2020-01-17 12:09:44 INFO  RadiocontrolAirPage:205 - Sorting is Correct: 208.0 > 162.14
+2020-01-17 12:09:44 INFO  RadiocontrolAirPage:129 - Select product № 0
+2020-01-17 12:09:44 INFO  RadiocontrolAirPage:129 - Select product № 2
+2020-01-17 12:09:45 INFO  RadiocontrolAirPage:129 - Select product № 4
+2020-01-17 12:09:45 INFO  RadiocontrolAirPage:129 - Select product № 5
+2020-01-17 12:09:45 INFO  RadiocontrolAirPage:211 - Verify That Compare Button contains 4 products
+2020-01-17 12:09:46 INFO  RadiocontrolAirPage:226 - Passed
+2020-01-17 12:09:47 INFO  RadiocontrolAirPage:137 - Open Comparison
+2020-01-17 12:09:50 INFO  ComparisonPage:30 - Select Compared Product Index 1
+2020-01-17 12:09:50 INFO  ProductPage:77 - Verify That Product Description contains: квадрокоптер
+2020-01-17 12:09:50 INFO  ProductPage:79 - Passed
+2020-01-17 12:09:50 INFO  ProductPage:91 - Select Left Menu Item: пластик
+2020-01-17 12:09:50 INFO  ProductPage:77 - Verify That Product Description contains: бесколлекторный
+2020-01-17 12:09:50 INFO  ProductPage:79 - Passed
+2020-01-17 12:09:50 INFO  ProductPage:45 - Add Product To Cart
+2020-01-17 12:09:50 INFO  ProductPage:62 - Verify Number Of Products In Cart Header
+2020-01-17 12:09:51 INFO  ProductPage:66 - Passed
+2020-01-17 12:09:52 INFO  ProductPage:55 - Open Cart in Header
+2020-01-17 12:09:53 INFO  CartPage:41 - Click Plus Button
+2020-01-17 12:09:53 INFO  CartPage:46 - Verify That Total Price is correct
+2020-01-17 12:09:53 INFO  CartPage:52 - singlePriceToDouble = 458.0
+2020-01-17 12:09:53 INFO  CartPage:55 - singlePriceToDouble = 458.0
+2020-01-17 12:09:53 INFO  CartPage:58 - Passed
+2020-01-17 12:09:53 INFO  CartPage:65 - Do Checkout
+2020-01-17 12:09:53 INFO  CartPage:70 - Verify That Login Popup appears
+2020-01-17 12:09:53 INFO  CartPage:75 - Passed
+2020-01-17 12:09:55 INFO  BaseTest:79 - Openhttps://onliner.by/
+2020-01-17 12:09:55 INFO  QuadrocopterSearchResultsTest:21 -  !!! Startring test: Test #2 !!!
+2020-01-17 12:09:55 INFO  BaseTest:85 - Close browserChromeDriver: chrome on WINDOWS (aebef7fc683b17bb3a870761d35ab6e0)

@@ -24,19 +24,12 @@ public class RadiocontrolAirPage {
         PageFactory.initElements(driver, this);
     }
 
-//    private  final WebElement compareButton = driver.findElement(By.xpath("//div[@class='compare-button-container']//span[contains(text(),'товара')]"));
     private final By compareButton = By.xpath("//div[@class='compare-button-container']//span[contains(text(),'товара')]");
 
 
     public WebElement leftMenuItem(String leftMenuItem) {
         return driver.findElement(By.xpath(String.format("//div[@id='schema-filter']//span[text()='%s']", leftMenuItem)));
     }
-
-    /*
-    public WebElement sortingMenu() {
-        return driver.findElement(By.xpath("//div[@class='js-schema-results schema-grid__center-column']//a[@class='schema-order__link']"));
-    }
-     */
 
     private  final By sortingMenu = By.xpath("//div[@class='js-schema-results schema-grid__center-column']//a[@class='schema-order__link']");
 
@@ -87,6 +80,16 @@ public class RadiocontrolAirPage {
         return new RadiocontrolAirPage(driver);
     }
 
+    public RadiocontrolAirPage selectLeftMenuItem(List<String> leftMenuItem)  {
+
+        for (String element : leftMenuItem) {
+            leftMenuItem(element).click();
+            log.info("Select Left Menu Item: " + element);
+        }
+
+        return new RadiocontrolAirPage(driver);
+    }
+
     public RadiocontrolAirPage selectSortingBy(String sortingMenuItem) {
 
         new WebDriverWait(driver, 10).until(elementToBeClickable(sortingMenu));
@@ -98,7 +101,6 @@ public class RadiocontrolAirPage {
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", sortingMenuItem(sortingMenuItem));
 
-//        sortingMenuItem(sortingMenuItem).click();
         log.info("Select Sorting by: " + sortingMenuItem);
 
         return new RadiocontrolAirPage(driver);
@@ -131,7 +133,6 @@ public class RadiocontrolAirPage {
     public ComparisonPage openComparison()  {
         new WebDriverWait(driver, 10)
                 .until(visibilityOfElementLocated(compareButton));
-  //      compareButton.click();
         driver.findElement(compareButton).click();
         log.info("Open Comparison");
         return new ComparisonPage(driver);
@@ -169,24 +170,12 @@ public class RadiocontrolAirPage {
 
     public RadiocontrolAirPage verifyThatSortingIsCorrect() throws InterruptedException {
         log.info("Verify that Sorting is correct");
-/*
-        new WebDriverWait(driver, 10).ignoring(StaleElementReferenceException.class)
-                .until(visibilityOfElementLocated(By.xpath("//span[text()='42,00 р.']")));
 
- */
-/*
-        new WebDriverWait(driver, 10)
-                .until(visibilityOfElementLocated(By.xpath("//div[@class='schema-product__part schema-product__part_2']//span[contains(text(),'р.')]")));
-
- */
  //       driver.manage().timeouts().pageLoadTimeout(2000,TimeUnit.MILLISECONDS);
  //       driver.manage().timeouts().implicitlyWait(2000,TimeUnit.MILLISECONDS);
 //        driver.manage().timeouts().wait(2000);
 
 Thread.sleep(1000);
- //       new WebDriverWait(driver, 10)
- //               .until(visibilityOfElementLocated(By.xpath("//div[@id='schema-products']//span[contains(text(),'квадрокоптер')]")));
-
 
         List<Double> priceToDouble = new ArrayList<Double>();
         List<WebElement> price = driver.findElements(By.xpath("//div[@class='schema-product__part schema-product__part_2']//span[contains(text(),'р.')]"));
@@ -218,27 +207,22 @@ Thread.sleep(1000);
         return this;
     }
 
-/*
-
-    public static boolean sortingIsCorrect (List<Double> priceToDouble) {
-
-        log.info("!!! sortingIsCorrect !!!");
-
-        return Comparators.isInOrder(priceToDouble, Comparator.<Double> naturalOrder());
-
-    }
-*/
-
-
         public RadiocontrolAirPage verifyThatCompareButtonContainsNumberOfSelectedProducts(int numberOfProducts) throws InterruptedException {
             log.info("Verify That Compare Button contains " + numberOfProducts + " products");
 
-            new WebDriverWait(driver, 10)
-                    .until(elementToBeClickable(By.xpath(String.format("//div[@class='compare-button compare-button_visible']//span[contains(text(),'%d')]"
-                            ,numberOfProducts))));
+            boolean isDisplayed = false;
+            try {
+                new WebDriverWait(driver, 10)
+                        .until(elementToBeClickable(By.xpath(String.format("//div[@class='compare-button compare-button_visible']//span[contains(text(),'%d')]"
+                                ,numberOfProducts))));
+                if (compareButtonWithProducts(numberOfProducts).isDisplayed()) {
+                    isDisplayed = true;
+                }
+            } catch(Exception e) {
 
-   //     Assert.assertTrue(compareButtonWithProducts(numberOfProducts).isDisplayed(), "Cant find Compare Button with " + numberOfProducts + " products");
-        assertThat(compareButtonWithProducts(numberOfProducts).isDisplayed()).as("Cant find Compare Button with " + numberOfProducts + " products").isTrue();
+        }
+
+        assertThat(isDisplayed).as("Cant find Compare Button with " + numberOfProducts + " products").isTrue();
             log.info("Passed");
             return this;
         }

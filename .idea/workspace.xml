@@ -2,12 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533c2dc9-c409-4f04-8875-002942aac80f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-09-04.679headerIsCorrect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-11-27.359headerIsCorrect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-12-32.809headerIsCorrect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-14-02.143headerIsCorrect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T15-25-06.221dummyTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2019-12-20T150427.869headerIsCorrect.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-26T16-10-45.583radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-26T16-13-15.798radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-26T16-15-16.294radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-26T17-20-08.490radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-26T17-23-32.316radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-30T17-29-29.993radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2019-12-30T17-29-54.961radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-08T18-57-00.359radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-08T18-58-29.953radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T17-11-13.066radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T17-15-07.517radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T17-48-24.323radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T17-49-12.509radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T18-10-37.696radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T18-17-30.817radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T18-18-30.083radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T18-21-26.759radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T18-22-46.884radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-09T18-25-44.088radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-10T11-58-12.357radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-10T16-21-38.976radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-11T19-32-56.606radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-11T19-34-16.852radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-11T19-35-44.112radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-11T19-36-52.147radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-11T19-37-43.412radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-11T19-39-00.047radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-14T17-17-37.748radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-14T17-23-20.302radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-14T18-03-43.920radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-14T19-20-10.848radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-14T19-58-07.966radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T14-59-05.364radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T15-03-00.431radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T15-05-27.073radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T15-08-21.571radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T15-11-22.554radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T15-16-23.302radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-15T15-28-51.370radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T15-03-41.513radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T15-47-26.336radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T15-48-59.807radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T15-50-16.242radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T15-50-33.947radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-09-24.688radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-46-29.846radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-49-19.873radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-50-34.151radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-50-46.295radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-55-03.460radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T16-55-13.949radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-00-20.200radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-00-41.405radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-01-33.034radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-01-50.474radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-05-44.437radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-08-41.838radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-10-23.777radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-16T17-13-47.535radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/PropertyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/ReadSysVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/entities/ExpectedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/entities/MainMenuData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/entities/ProductMenuData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/entities/QuadrocopterData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/env/qa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/env/stage.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerCatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RadiocontrolAirPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RadiocontrolAirPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/functional/RadiocontrolAirTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/functional/RadiocontrolAirTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerCatalogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RadiocontrolAirPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RadiocontrolAirPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/log_txt.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/log_txt.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Functional tests/Onliner catalog tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Functional tests/Onliner catalog tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Functional tests/Onliner catalog tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Functional tests/Onliner catalog tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Functional tests/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-by.onliner.test.suites.functional.QuadrocopterSearchResultsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-by.onliner.test.suites.functional.QuadrocopterSearchResultsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-by.onliner.test.suites.functional.RadiocontrolAirTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-by.onliner.test.suites.functional.RadiocontrolAirTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Functional tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Functional tests/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Functional tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Functional tests/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Functional tests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Functional tests/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +116,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="TestNG Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +132,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TFP7EBiYI5se4PDQHg7Pnh6Cw4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,7 +150,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -62,18 +163,20 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="by.onliner.webapp" />
       <recent name="by.onliner.test" />
+      <recent name="by.onliner.webapp" />
       <recent name="by.onliner.webapp.pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Automation\GitHub\onlinertest\src\test\resources\env" />
       <recent name="D:\Automation\GitHub\onlinertest\src\main\resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.onliner.test.suites.functional" />
       <recent name="by.onliner.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.RadiocontrolAirTest">
     <configuration name="D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="onlinertest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -88,7 +191,7 @@
       <module name="onlinertest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="PATTERN" value="by.onliner.test.data.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +221,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadiocontrolAirTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="onliner-test" />
+    <configuration name="RadiocontrolAirTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlinertest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="PATTERN" value="by.onliner.test.data.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,17 +238,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResultsCountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="onlinertest" />
+    <configuration name="RadiocontrolAirTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onliner-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.onliner.test.suites.functional.*" />
+          <option name="PATTERN" value="by.onliner.test.data.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.onliner.test.suites.functional" />
-      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.TestResultsCountTest" />
+      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.RadiocontrolAirTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadiocontrolAirTest.radiocontrolAirTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlinertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.onliner.test.data.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.onliner.test.suites.functional" />
+      <option name="MAIN_CLASS_NAME" value="by.onliner.test.suites.functional.RadiocontrolAirTest" />
+      <option name="METHOD_NAME" value="radiocontrolAirTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RadiocontrolAirTest" />
+        <item itemvalue="TestNG.RadiocontrolAirTest.radiocontrolAirTest" />
         <item itemvalue="TestNG.D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.QuadrocopterSearchResultsTest" />
         <item itemvalue="TestNG.RadiocontrolAirTest (1)" />
-        <item itemvalue="TestNG.RadiocontrolAirTest (2)" />
-        <item itemvalue="TestNG.TestResultsCountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,43 +308,73 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578920568464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578920568464" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1577716546794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577716546794" />
+    <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578920843167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1578920843167" />
+    <state x="560" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578500374042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578500374042" />
     <state x="782" y="410" key="FileChooserDialogImpl" timestamp="1577188963210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577188963210" />
-    <state width="1503" height="136" key="GridCell.Tab.0.bottom" timestamp="1577188965508">
+    <state width="1877" height="167" key="GridCell.Tab.0.bottom" timestamp="1579252057458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1503" height="136" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
-    <state width="1503" height="136" key="GridCell.Tab.0.center" timestamp="1577188965508">
+    <state width="1877" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579252057458" />
+    <state width="1877" height="167" key="GridCell.Tab.0.center" timestamp="1579252057457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1503" height="136" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
-    <state width="1503" height="136" key="GridCell.Tab.0.left" timestamp="1577188965508">
+    <state width="1877" height="167" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579252057457" />
+    <state width="1877" height="167" key="GridCell.Tab.0.left" timestamp="1579252057457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1503" height="136" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
-    <state width="1503" height="136" key="GridCell.Tab.0.right" timestamp="1577188965508">
+    <state width="1877" height="167" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579252057457" />
+    <state width="1877" height="167" key="GridCell.Tab.0.right" timestamp="1579252057457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1503" height="136" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577188965508" />
+    <state width="1877" height="167" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579252057457" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1576841739737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576841739737" />
-    <state x="375" y="162" key="SettingsEditor" timestamp="1576676562634">
+    <state x="1031" y="158" width="440" height="753" key="RefactorJ.IntroduceParameterObject" timestamp="1577452169801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="375" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576676562634" />
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577102789157">
+    <state x="1031" y="158" width="440" height="753" key="RefactorJ.IntroduceParameterObject/0.0.1920.1040@0.0.1920.1040" timestamp="1577452169801" />
+    <state x="375" y="162" key="SettingsEditor" timestamp="1578569598685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577102789157" />
+    <state x="375" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578569598685" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1579018032540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579018032540" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579252215817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579252215817" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/onlinertest$RadiocontrolAirTest.ic" NAME="RadiocontrolAirTest Coverage Results" MODIFIED="1573476543852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinertest$RadiocontrolAirTest_radiocontrolAirTest.ic" NAME="RadiocontrolAirTest.radiocontrolAirTest Coverage Results" MODIFIED="1577716038563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>by.onliner.test.suites.functional.*</FILTER>
     </SUITE>
   </component>
 </project>

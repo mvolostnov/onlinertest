@@ -6,6 +6,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j;
@@ -21,9 +22,12 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 
+
 import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.time.LocalDateTime;
+import java.util.concurrent.TimeUnit;
 
 
 @Log4j
@@ -31,22 +35,34 @@ public class BaseTest {
 
     public static WebDriver driver;
     private static final String HOMEPAGE_URL = "https://onliner.by/";
+
     protected static WebApplication app = new WebApplication();
     private static final String SCREENSHOTS_PATH = "D:\\Automation\\GitHub\\onlinertest\\screenshots\\";
 
     private static ExtentReports extentReports;
-    private static ExtentTest extentTest;
+    protected static ExtentTest extentTest;
 
-
+    //for maven profiles
+    protected static String baseUrl;
+//    protected static Capabilities capabilities;
 
     @BeforeSuite(alwaysRun = true)
-    public void browserSetup() {
+    public void browserSetup() throws IOException {
+
+        String envName = System.getProperty("environment", "qa").toLowerCase();
+        PropertyLoader properties = new PropertyLoader();
+        baseUrl = properties.getProperty(String.format("env/%s.properties", envName), "app.url");
+
+
+
 
         driver = initDriver(BrowserType.CHROME);
         BaseTest.log.info("Open browser " + driver);
 
         driver.manage().window().maximize();
         BaseTest.log.info("Maximize browser's window");
+
+        driver.manage().timeouts().implicitlyWait(2000,TimeUnit.MILLISECONDS);
 
         extentReports = ExtentManager.createInstance("extent.html");
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
@@ -56,16 +72,17 @@ public class BaseTest {
 
 
     @BeforeMethod
-    public void beforeEachTest(Method method) {
+    public void beforeEachTest(Method method) throws IOException {
+
         extentTest = extentReports.createTest(getClass().getName());
-        driver.get(HOMEPAGE_URL);
-        BaseTest.log.info("Open https://onliner.by/");
+        driver.get(baseUrl);
+        log.info("Open" + baseUrl);
         }
 
 
     @AfterSuite(alwaysRun = true)
     public void browserTearDown() {
-        BaseTest.log.info("Close browser" + driver);
+        log.info("Close browser" + driver);
         driver.quit();
         driver=null;
 
@@ -100,8 +117,7 @@ public class BaseTest {
                 extentTest.pass("Test passed");
 
             extentReports.flush();
-
-    }
+            driver.manage().deleteAllCookies();    }
 
 
     private WebDriver initDriver(String browserType) {

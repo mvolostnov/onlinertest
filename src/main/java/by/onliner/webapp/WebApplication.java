@@ -10,4 +10,12 @@ public class WebApplication extends BaseTest {
         return new OnlinerHomePage(driver);
 
     }
+/*
+    public RCHomePage RCHomePage() {
+
+        return new RCHomePage(driver);
+
+    }
+
+ */
 }

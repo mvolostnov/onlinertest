@@ -1,57 +1,101 @@
 package by.onliner.test.suites.functional;
 
 import by.onliner.test.BaseTest;
-import com.aventstack.extentreports.ExtentTest;
+import by.onliner.test.data.entities.ExpectedData;
+import by.onliner.test.data.entities.MainMenuData;
+import by.onliner.test.data.entities.ProductMenuData;
+import by.onliner.test.data.entities.QuadrocopterData;
 import lombok.extern.log4j.Log4j;
-import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
+import java.util.Arrays;
 
 @Log4j
 public  class RadiocontrolAirTest extends BaseTest {
 
-    @Test(description = "Header Радиоуправляемые авиамодели test")
-    public void radiocontrolAirTest() throws InterruptedException {
+    @DataProvider
+    public Object[][] testData() {
+        return new Object[][] {
+                new Object[] {QuadrocopterData.builder()
+                        .materials(Arrays.asList("металл", "пластик"))
+                        .minimalRange("100")
+                        .engineType("бесколлекторный")
+                        .build(),
+                        ExpectedData.builder()
+                        .numberOfSearchResults(102)
+                        .numberOfSelectedProducts(4)
+                        .build()},
+     /*
+                new Object[] {QuadrocopterData.builder()
+                        .materials(Arrays.asList("пластик", "бальза"))
+                        .minimalRange("200")
+                        .engineType("бесколлекторный")
+                        .build(),
+                        ExpectedData.builder()
+                        .numberOfSearchResults(87)
+                        .numberOfSelectedProducts(4)
+                        .build()}
 
+      */
+        };
+    }
+
+
+    @Test(dataProvider = "testData")
+    public void radiocontrolAirTest(QuadrocopterData qcData, ExpectedData expData) throws InterruptedException {
+
+
+        MainMenuData maimMenu = MainMenuData.builder()
+                                .topMenuSection("Каталог")
+                                .catalogCategory("Красота и спорт")
+                                .catalogSubCategory("Хобби")
+                                .productType("Радиоуправляемые авиамодели")
+                                .menuHeaderItem("Радиоуправляемые авиамодели")
+                                .build();
+
+        ProductMenuData  productMenu = ProductMenuData.builder()
+                                .leftMenuElement1("Тип")
+                                .leftMenuItem("квадрокоптер")
+                                .leftMenuElement2("Дальность действия, м")
+                                .sortingItem("Дешевые")
+                                .build();
+
+        extentTest.info("Start scenario with the following data: " + qcData.toString());
         app.openHomePage()
-                .openTopMenuSection("Каталог")
-                .selectCatalogCategory("Красота и спорт")
-                .selectCatalogSubCategory("Хобби")
-                .selectProductType("Радиоуправляемые авиамодели")
-                .checkThatPageHeaderContains("Радиоуправляемые авиамодели")
-                .scrollToLeftMenuElement("Тип")
-                .selectLeftMenuItem("квадрокоптер")
-                .selectLeftMenuItem("пластик")
-                .selectLeftMenuItem("металл")
-                .setMinimalRange("100")
-                .scrollToLeftMenuElement("Дальность действия, м")
+                .openTopMenuSection(maimMenu.getTopMenuSection())
+                .selectCatalogCategory(maimMenu.getCatalogCategory())
+                .selectCatalogSubCategory(maimMenu.getCatalogSubCategory())
+                .selectProductType(maimMenu.getProductType())
+                .checkThatPageHeaderContains(maimMenu.getMenuHeaderItem())
+                .scrollToLeftMenuElement(productMenu.getLeftMenuElement1())
+                .selectLeftMenuItem(productMenu.getLeftMenuItem())
+                .selectLeftMenuItem(qcData.getMaterials())
+                .setMinimalRange(qcData.getMinimalRange())
+                .scrollToLeftMenuElement(productMenu.getLeftMenuElement2())
                 .openAdditionalParameters()
-                .selectLeftMenuItem("бесколлекторный")
-                .verifyThatNumberOfSearchResultsEqualsTo(102)
+                .selectLeftMenuItem(qcData.getEngineType())
+                .verifyThatNumberOfSearchResultsEqualsTo(expData.getNumberOfSearchResults())
                 .scrollToPageHeader()
-                .selectSortingBy("Дешевые")
+                .selectSortingBy(productMenu.getSortingItem())
                 .verifyThatSortingIsCorrect()
                 .selectProductByIndex(0)
                 .selectProductByIndex(2)
                 .selectProductByIndex(4)
                 .selectProductByIndex(5)
-                .verifyThatCompareButtonContainsNumberOfSelectedProducts(4)
+                .verifyThatCompareButtonContainsNumberOfSelectedProducts(expData.getNumberOfSelectedProducts())
                 .openComparison()
-                .selectComparedProductWithIndex(2)
-                .verifyThatProductDescription("квадрокоптер")
-                .verifyThatProductDescription("пластик")
-//                .verifyThatProductDescription("металл")
-                .verifyThatProductDescription("бесколлекторный")
+                .selectComparedProductWithIndex(1)
+                .verifyThatProductDescription(productMenu.getLeftMenuItem())
+                .verifyThatProductDescription(qcData.getMaterials())
+                .verifyThatProductDescription(qcData.getEngineType())
                 .addProductToCart()
                 .verifyNumberOfProductsInCartHeader(1)
                 .openCartHeader()
                 .clickPlusButton()
                 .verifyThatTotalPrice()
                 .doCheckout()
-                .verifyThatLoginPopup()
-
-        ;
+                .verifyThatLoginPopup();
 
     }
 

@@ -14,6 +14,9 @@
         <java.version>1.8</java.version>
     </properties>
 
+
+
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -90,34 +93,117 @@
             <version>3.1.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.aeonbits.owner</groupId>
+            <artifactId>owner</artifactId>
+            <version>1.0.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-help-plugin</artifactId>
+            <version>3.2.0</version>
+            <type>maven-plugin</type>
+        </dependency>
+
     </dependencies>
 
 
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>d:\Automation\GitHub\onlinertest\src\test\resources\testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
+    <!-- profiles -->
+    <!--
+
+
+        <profile>
+            <id>firefox</id>
+            <properties>
+                <capabilities>/firefox.capabilities</capabilities>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>chrome</id>
+            <properties>
+                <capabilities>/chrome.capabilities</capabilities>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>ie</id>
+            <properties>
+                <capabilities>/ie.capabilities</capabilities>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+    -->
+    <profiles>
+        <!-- environments -->
+        <profile>
+            <id>qa-env</id>
+            <properties>
+                <application.url>https://onliner.by/</application.url>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>stage-env</id>
+            <properties>
+                <application.url>https://www.stage2.royalcaribbean.com/account/</application.url>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+    </profiles>
+
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>${java.version}</source>
+                <target>${java.version}</target>
+                <encoding>${project.build.sourceEncoding}</encoding>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.2</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>d:\Automation\GitHub\onlinertest\src\test\resources\testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-help-plugin</artifactId>
+            <version>3.2.0</version>
+            <executions>
+                <execution>
+                    <id>show-profiles</id>
+                    <phase>compile</phase>
+                    <goals>
+                        <goal>active-profiles</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
