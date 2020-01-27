@@ -1,12 +1,8 @@
-<suite name = "Functional tests">
-
-    <parameter name="OS" value="Windows"/>
-    <parameter name="browser" value="Chrome"/>
-
-    <test name = "Onliner catalog tests">
-        <classes>
-            <class name="by.onliner.test.suites.functional.RadiocontrolAirTest"/>
-            <class name = "by.onliner.test.suites.functional.QuadrocopterSearchResultsTest"/>
-        </classes>
-    </test>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Onlinertests">
+    <suite-files>
+        <suite-file path="functionaltests.xml"/>
+        <suite-file path="smoketests.xml"/>
+    </suite-files>
 </suite>

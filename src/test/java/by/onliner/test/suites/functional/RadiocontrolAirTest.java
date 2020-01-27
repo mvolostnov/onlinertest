@@ -46,7 +46,7 @@ public  class RadiocontrolAirTest extends BaseTest {
     public void radiocontrolAirTest(QuadrocopterData qcData, ExpectedData expData) throws InterruptedException {
 
 
-        MainMenuData maimMenu = MainMenuData.builder()
+        MainMenuData mainMenu = MainMenuData.builder()
                                 .topMenuSection("Каталог")
                                 .catalogCategory("Красота и спорт")
                                 .catalogSubCategory("Хобби")
@@ -63,11 +63,11 @@ public  class RadiocontrolAirTest extends BaseTest {
 
         extentTest.info("Start scenario with the following data: " + qcData.toString());
         app.openHomePage()
-                .openTopMenuSection(maimMenu.getTopMenuSection())
-                .selectCatalogCategory(maimMenu.getCatalogCategory())
-                .selectCatalogSubCategory(maimMenu.getCatalogSubCategory())
-                .selectProductType(maimMenu.getProductType())
-                .checkThatPageHeaderContains(maimMenu.getMenuHeaderItem())
+                .openTopMenuSection(mainMenu.getTopMenuSection())
+                .selectCatalogCategory(mainMenu.getCatalogCategory())
+                .selectCatalogSubCategory(mainMenu.getCatalogSubCategory())
+                .selectProductType(mainMenu.getProductType())
+                .checkThatPageHeaderContains(mainMenu.getMenuHeaderItem())
                 .scrollToLeftMenuElement(productMenu.getLeftMenuElement1())
                 .selectLeftMenuItem(productMenu.getLeftMenuItem())
                 .selectLeftMenuItem(qcData.getMaterials())

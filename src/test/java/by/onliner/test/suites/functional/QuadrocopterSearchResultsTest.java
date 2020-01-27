@@ -1,11 +1,7 @@
 package by.onliner.test.suites.functional;
 
 import by.onliner.test.BaseTest;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
 import lombok.extern.log4j.Log4j;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

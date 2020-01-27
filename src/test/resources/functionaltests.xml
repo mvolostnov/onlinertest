@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Onlinertests">
+    <parameter name="OS" value="Windows"/>
+    <!--     <parameter name="browser" value="Chrome"/> -->
+
+        <test name = "Onliner catalog tests">
+            <classes>
+                <class name="by.onliner.test.suites.functional.RadiocontrolAirTest"/>
+                <class name = "by.onliner.test.suites.functional.QuadrocopterSearchResultsTest"/>
+            </classes>
+        </test>
+    </suite>
+

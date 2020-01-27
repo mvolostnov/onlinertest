@@ -12,9 +12,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <testng.files.location>src/test/resources/</testng.files.location>
+        <suite.filepath>src/test/resources/functionaltests.xml</suite.filepath>
     </properties>
-
-
 
 
     <dependencies>
@@ -109,61 +109,20 @@
     </dependencies>
 
 
-
-
-    <!-- profiles -->
-    <!--
-
-
-        <profile>
-            <id>firefox</id>
-            <properties>
-                <capabilities>/firefox.capabilities</capabilities>
-            </properties>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>chrome</id>
-            <properties>
-                <capabilities>/chrome.capabilities</capabilities>
-            </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>ie</id>
-            <properties>
-                <capabilities>/ie.capabilities</capabilities>
-            </properties>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-        </profile>
-    -->
     <profiles>
-        <!-- environments -->
         <profile>
-            <id>qa-env</id>
-            <properties>
-                <application.url>https://onliner.by/</application.url>
-            </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>stage-env</id>
-            <properties>
-                <application.url>https://www.stage2.royalcaribbean.com/account/</application.url>
-            </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
+            <id>functional</id>
+                <properties>
+                    <suite.filepath>src/test/resources/functionaltests.xml</suite.filepath>
+                </properties>
         </profile>
 
+        <profile>
+            <id>smoke</id>
+                <properties>
+                    <suite.filepath>src/test/resources/smoketests.xml</suite.filepath>
+                </properties>
+        </profile>
     </profiles>
 
 
@@ -185,7 +144,7 @@
             <version>2.22.2</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>d:\Automation\GitHub\onlinertest\src\test\resources\testng.xml</suiteXmlFile>
+                    <suiteXmlFile>${suite.filepath}</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>

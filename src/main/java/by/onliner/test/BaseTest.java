@@ -11,6 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -33,7 +34,7 @@ import java.util.concurrent.TimeUnit;
 @Log4j
 public class BaseTest {
 
-    public static WebDriver driver;
+    //public static WebDriver driver;
     private static final String HOMEPAGE_URL = "https://onliner.by/";
 
     protected static WebApplication app = new WebApplication();
@@ -49,14 +50,14 @@ public class BaseTest {
     @BeforeSuite(alwaysRun = true)
     public void browserSetup() throws IOException {
 
-        String envName = System.getProperty("environment", "qa").toLowerCase();
+        String envName = System.getProperty("environment", "stage").toLowerCase();
         PropertyLoader properties = new PropertyLoader();
         baseUrl = properties.getProperty(String.format("env/%s.properties", envName), "app.url");
 
 
 
-
-        driver = initDriver(BrowserType.CHROME);
+        WebDriver driver = initDriver(BrowserType.CHROME);
+        WebDriverInstance.setDriver(driver);
         BaseTest.log.info("Open browser " + driver);
 
         driver.manage().window().maximize();
@@ -75,16 +76,16 @@ public class BaseTest {
     public void beforeEachTest(Method method) throws IOException {
 
         extentTest = extentReports.createTest(getClass().getName());
-        driver.get(baseUrl);
-        log.info("Open" + baseUrl);
+        WebDriverInstance.getDriver().get(baseUrl);
+        log.info("Open :" + baseUrl);
         }
 
 
     @AfterSuite(alwaysRun = true)
     public void browserTearDown() {
-        log.info("Close browser" + driver);
-        driver.quit();
-        driver=null;
+        log.info("Close browser" + WebDriverInstance.getDriver());
+        WebDriverInstance.getDriver().quit();
+        WebDriverInstance.setDriver(null);
 
     }
 
@@ -96,7 +97,7 @@ public class BaseTest {
             if (result.getStatus() == ITestResult.FAILURE) {
                 try{
                 // To create reference of TakesScreenshot
-                TakesScreenshot screenshot=(TakesScreenshot)driver;
+                TakesScreenshot screenshot=(TakesScreenshot)WebDriverInstance.getDriver();
                 // Call method to capture screenshot
                 File src=screenshot.getScreenshotAs(OutputType.FILE);
                 // Copy files to specific location
@@ -117,7 +118,7 @@ public class BaseTest {
                 extentTest.pass("Test passed");
 
             extentReports.flush();
-            driver.manage().deleteAllCookies();    }
+        WebDriverInstance.getDriver().manage().deleteAllCookies();    }
 
 
     private WebDriver initDriver(String browserType) {

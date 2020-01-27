@@ -18,6 +18,4 @@ public class MainMenuData {
     private String productType;
     private String menuHeaderItem;
 
-
-
 }

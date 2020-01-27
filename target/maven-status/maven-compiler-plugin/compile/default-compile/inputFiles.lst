@@ -5,11 +5,13 @@ d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\BaseTest.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\TestData.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\ExtentManager.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\GetScreenShot.java
+d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\entities\RCCreateAccountData.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\PropertyLoader.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\webapp\pages\ComparisonPage.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\webapp\WebApplication.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\entities\QuadrocopterData.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\webapp\pages\ProductPage.java
+d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\webapp\pages\RCCreateAccountPage.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\webapp\pages\OnlinerHomePage.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\entities\ExpectedData.java
 d:\Automation\GitHub\onlinertest\src\main\java\by\onliner\test\data\entities\ProductMenuData.java

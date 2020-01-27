@@ -1,151 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Functional tests" duration-ms="52626" started-at="2020-01-17T12:09:02 MSK" finished-at="2020-01-17T12:09:55 MSK">
+  <suite name="Onlinertests" duration-ms="11108" started-at="2020-01-21T14:46:06 MSK" finished-at="2020-01-21T14:46:17 MSK">
     <groups>
     </groups>
-    <test name="Onliner catalog tests" duration-ms="52626" started-at="2020-01-17T12:09:02 MSK" finished-at="2020-01-17T12:09:55 MSK">
-      <class name="by.onliner.test.suites.functional.QuadrocopterSearchResultsTest">
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@7d70d1b1]" name="beforeEachTest" is-config="true" duration-ms="1410" started-at="2020-01-17T12:09:53 MSK" finished-at="2020-01-17T12:09:55 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void by.onliner.test.suites.functional.QuadrocopterSearchResultsTest.dummyTest() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="dummyTest()[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@7d70d1b1]" name="dummyTest" duration-ms="0" started-at="2020-01-17T12:09:55 MSK" description="Dummy test" finished-at="2020-01-17T12:09:55 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dummyTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@7d70d1b1]" name="afterMethod" is-config="true" duration-ms="323" started-at="2020-01-17T12:09:55 MSK" finished-at="2020-01-17T12:09:55 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dummyTest status=SUCCESS method=QuadrocopterSearchResultsTest.dummyTest()[pri:0, instance:by.onliner.test.suites.functional.QuadrocopterSearchResultsTest@7d70d1b1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- by.onliner.test.suites.functional.QuadrocopterSearchResultsTest -->
-      <class name="by.onliner.test.suites.functional.RadiocontrolAirTest">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="browserSetup" is-config="true" duration-ms="10483" started-at="2020-01-17T12:08:52 MSK" finished-at="2020-01-17T12:09:02 MSK">
+    <test name="Onliner catalog tests" duration-ms="11108" started-at="2020-01-21T14:46:06 MSK" finished-at="2020-01-21T14:46:17 MSK">
+      <class name="by.onliner.test.suites.smoke.RCTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:by.onliner.test.suites.smoke.RCTest@2a556333]" name="browserSetup" is-config="true" duration-ms="10413" started-at="2020-01-21T14:45:56 MSK" finished-at="2020-01-21T14:46:06 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="beforeEachTest" is-config="true" duration-ms="3299" started-at="2020-01-17T12:09:03 MSK" finished-at="2020-01-17T12:09:06 MSK">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.smoke.RCTest@2a556333]" name="beforeEachTest" is-config="true" duration-ms="8498" started-at="2020-01-21T14:46:06 MSK" finished-at="2020-01-21T14:46:15 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void by.onliner.test.suites.functional.RadiocontrolAirTest.dummyTest2() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void by.onliner.test.suites.smoke.RCTest.radiocontrolAirTest(by.onliner.test.data.entities.RCCreateAccountData) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="dummyTest2()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="dummyTest2" duration-ms="1" started-at="2020-01-17T12:09:06 MSK" description="Dummy test 2" finished-at="2020-01-17T12:09:06 MSK">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dummyTest2 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="afterMethod" is-config="true" duration-ms="443" started-at="2020-01-17T12:09:06 MSK" finished-at="2020-01-17T12:09:06 MSK">
+        <test-method status="PASS" signature="radiocontrolAirTest(by.onliner.test.data.entities.RCCreateAccountData)[pri:0, instance:by.onliner.test.suites.smoke.RCTest@2a556333]" name="radiocontrolAirTest" duration-ms="2033" started-at="2020-01-21T14:46:15 MSK" data-provider="contactData" finished-at="2020-01-21T14:46:17 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dummyTest2 status=SUCCESS method=RadiocontrolAirTest.dummyTest2()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="beforeEachTest" is-config="true" duration-ms="1579" started-at="2020-01-17T12:09:06 MSK" finished-at="2020-01-17T12:09:08 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void by.onliner.test.suites.functional.RadiocontrolAirTest.radiocontrolAirTest(by.onliner.test.data.entities.QuadrocopterData,by.onliner.test.data.entities.ExpectedData) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="radiocontrolAirTest(by.onliner.test.data.entities.QuadrocopterData, by.onliner.test.data.entities.ExpectedData)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="radiocontrolAirTest" duration-ms="22766" started-at="2020-01-17T12:09:08 MSK" data-provider="testData" finished-at="2020-01-17T12:09:31 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[QuadrocopterData(materials=[металл, пластик], minimalRange=100, engineType=бесколлекторный)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ExpectedData(numberOfSearchResults=102, numberOfSelectedProducts=4)]]>
+                <![CDATA[RCCreateAccountData(firstName=John, lastName=Doe, monthOfBirth=November, dayOfBirth=W, yearOfBirth=W, country=W, email=W, newPassword=W, securityQuestion=W, answer=W)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radiocontrolAirTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="afterMethod" is-config="true" duration-ms="365" started-at="2020-01-17T12:09:31 MSK" finished-at="2020-01-17T12:09:31 MSK">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.smoke.RCTest@2a556333]" name="afterMethod" is-config="true" duration-ms="551" started-at="2020-01-21T14:46:17 MSK" finished-at="2020-01-21T14:46:17 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=radiocontrolAirTest status=SUCCESS method=RadiocontrolAirTest.radiocontrolAirTest(by.onliner.test.data.entities.QuadrocopterData, by.onliner.test.data.entities.ExpectedData)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333] output={null}]]]>
+                <![CDATA[[TestResult name=radiocontrolAirTest status=SUCCESS method=RCTest.radiocontrolAirTest(by.onliner.test.data.entities.RCCreateAccountData)[pri:0, instance:by.onliner.test.suites.smoke.RCTest@2a556333] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="beforeEachTest" is-config="true" duration-ms="1672" started-at="2020-01-17T12:09:31 MSK" finished-at="2020-01-17T12:09:33 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void by.onliner.test.suites.functional.RadiocontrolAirTest.radiocontrolAirTest(by.onliner.test.data.entities.QuadrocopterData,by.onliner.test.data.entities.ExpectedData) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="radiocontrolAirTest(by.onliner.test.data.entities.QuadrocopterData, by.onliner.test.data.entities.ExpectedData)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="radiocontrolAirTest" duration-ms="20406" started-at="2020-01-17T12:09:33 MSK" data-provider="testData" finished-at="2020-01-17T12:09:53 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[QuadrocopterData(materials=[пластик, бальза], minimalRange=200, engineType=бесколлекторный)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ExpectedData(numberOfSearchResults=87, numberOfSelectedProducts=4)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radiocontrolAirTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="afterMethod" is-config="true" duration-ms="336" started-at="2020-01-17T12:09:53 MSK" finished-at="2020-01-17T12:09:53 MSK">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=radiocontrolAirTest status=SUCCESS method=RadiocontrolAirTest.radiocontrolAirTest(by.onliner.test.data.entities.QuadrocopterData, by.onliner.test.data.entities.ExpectedData)[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:by.onliner.test.suites.functional.RadiocontrolAirTest@2a556333]" name="browserTearDown" is-config="true" duration-ms="889" started-at="2020-01-17T12:09:55 MSK" finished-at="2020-01-17T12:09:56 MSK">
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:by.onliner.test.suites.smoke.RCTest@2a556333]" name="browserTearDown" is-config="true" duration-ms="756" started-at="2020-01-21T14:46:17 MSK" finished-at="2020-01-21T14:46:18 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTearDown -->
-      </class> <!-- by.onliner.test.suites.functional.RadiocontrolAirTest -->
+      </class> <!-- by.onliner.test.suites.smoke.RCTest -->
     </test> <!-- Onliner catalog tests -->
-  </suite> <!-- Functional tests -->
+  </suite> <!-- Onlinertests -->
 </testng-results>

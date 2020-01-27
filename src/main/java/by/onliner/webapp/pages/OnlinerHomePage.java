@@ -1,5 +1,6 @@
 package by.onliner.webapp.pages;
 
+import by.onliner.test.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,14 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 @Log4j
-public class OnlinerHomePage {
-
-    private WebDriver driver;
-
-    public OnlinerHomePage (WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-}
+public class OnlinerHomePage extends WebDriverInstance {
 
     public WebElement topMenuSection(String topMenuSectionName) {
         new WebDriverWait(driver, 10)

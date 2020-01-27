@@ -17,13 +17,8 @@ public class ComparisonPage {
         PageFactory.initElements(driver, this);
     }
 
-    public WebElement productCompared() {
-        return driver.findElement(By.xpath(String.format("//tr[@class='product-table__row product-table__row_header product-table__row_top']//a[@class='product-summary__figure']")));
-    }
 
-
-
-    public ProductPage selectComparedProductWithIndex(int index) throws InterruptedException {
+    public ProductPage selectComparedProductWithIndex(int index) {
         List<WebElement> selectComparedProductN = driver.findElements(By.xpath("//tr[@class='product-table__row product-table__row_header product-table__row_top']//a[@class='product-summary__figure']"));
         selectComparedProductN.get(index).click();
 

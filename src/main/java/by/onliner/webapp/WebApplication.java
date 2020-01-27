@@ -2,20 +2,16 @@ package by.onliner.webapp;
 
 import by.onliner.test.BaseTest;
 import by.onliner.webapp.pages.OnlinerHomePage;
+import by.onliner.webapp.pages.RCCreateAccountPage;
 
 public class WebApplication extends BaseTest {
 
     public OnlinerHomePage openHomePage() {
-
-        return new OnlinerHomePage(driver);
-
-    }
-/*
-    public RCHomePage RCHomePage() {
-
-        return new RCHomePage(driver);
-
+        return new OnlinerHomePage();
     }
 
- */
+    public RCCreateAccountPage openRCCreateAccountPage() {
+        return new RCCreateAccountPage();
+    }
+
 }

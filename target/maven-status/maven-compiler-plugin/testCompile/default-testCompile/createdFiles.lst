@@ -1,2 +1,5 @@
 by\onliner\test\suites\functional\RadiocontrolAirTest.class
+by\onliner\test\suites\smoke\SmokeTest_2.class
 by\onliner\test\suites\functional\QuadrocopterSearchResultsTest.class
+by\onliner\test\suites\smoke\SmokeTest_1.class
+by\onliner\test\suites\smoke\RCTest.class

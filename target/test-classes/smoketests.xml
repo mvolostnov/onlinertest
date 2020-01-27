@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Onlinertests">
+    <parameter name="OS" value="Windows"/>
+<!--    <parameter name="browser" value="Chrome"/> -->
+
+    <test name = "Onliner catalog tests">
+        <classes>
+            <!--             <class name="by.onliner.test.suites.smoke.positive.SmokeTest_1"/> -->
+            <!--             <class name = "by.onliner.test.suites.smoke.positive.SmokeTest_2"/> -->
+                        <class name = "by.onliner.test.suites.smoke.positive.RCTest"/>
+                    </classes>
+                </test>
+            </suite>
