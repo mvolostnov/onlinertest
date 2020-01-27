@@ -3,10 +3,9 @@ package by.onliner.webapp.pages;
 import by.onliner.test.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 @Log4j
@@ -22,7 +21,7 @@ public class OnlinerHomePage extends WebDriverInstance {
         topMenuSection(topMenuSectionName).click();
         log.info("Open Top Menu Section: " + topMenuSectionName);
 
-        return new OnlinerCatalogPage(driver);
+        return new OnlinerCatalogPage();
 
     }
 

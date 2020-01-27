@@ -1,25 +1,16 @@
 package by.onliner.webapp.pages;
 
+import by.onliner.test.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 @Log4j
-public class OnlinerCatalogPage {
+public class OnlinerCatalogPage extends WebDriverInstance {
 
-    private WebDriver driver;
-
-    public OnlinerCatalogPage(WebDriver driver) {
-        this.driver = driver;
-//        PageFactory.initElements(driver, this);
-    }
-
-//    @FindBy (xpath = "//span[text()='Красота и спорт']")
-//    private WebElement usernameField = driver.findElement(By.name("user"));
     public WebElement catalogCategoryName (String catalogCategoryName) {
         return driver.findElement(By.xpath(String.format("//ul[contains(@class,'catalog-navigation-classifier')]//span[text()='%s']", catalogCategoryName)));
     }

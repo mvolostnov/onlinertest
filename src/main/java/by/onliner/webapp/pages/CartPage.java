@@ -1,5 +1,6 @@
 package by.onliner.webapp.pages;
 
+import by.onliner.test.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,25 +10,14 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClick
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 @Log4j
-public class CartPage {
-    private WebDriver driver;
-
-    public CartPage(WebDriver driver) {
-        this.driver = driver;
-    }
+public class CartPage extends WebDriverInstance {
 
     private final By numberOfProducts = By.xpath("//div[@class='cart-form__offers-item cart-form__offers-item_secondary']//input[@class='input-style input-style_primary input-style_small input-style_text_center cart-form__input cart-form__input_max-width_xxxxsssss cart-form__input_nonadaptive']");
-
     private final By plusButton = By.xpath("//div[@class='cart-form__offers-item cart-form__offers-item_secondary']//a[@class='button-style button-style_auxiliary button-style_small cart-form__button cart-form__button_increment helpers_hide_tablet']");
-
     private final By checkoutButton = By.xpath("//div[@class='cart-form__offers-part cart-form__offers-part_total']//a[@class='button-style button-style_primary button-style_small cart-form__button']");
-
     private final By loginPopUp = By.xpath("//div[@id='auth-container']//button[contains(text(), 'Войти')]");
-
     private final By singlePrice = By.xpath("//div[@class='cart-form__offers-part cart-form__offers-part_price helpers_hide_tablet']//div[@class='cart-form__description cart-form__description_primary cart-form__description_base-alter cart-form__description_font-weight_semibold cart-form__description_ellipsis cart-form__description_condensed-another']/span");
-
     private final By totalPrice = By.xpath("//div[@class='cart-form__offers-part cart-form__offers-part_sum']//div[@class='cart-form__description cart-form__description_primary cart-form__description_base-alter cart-form__description_font-weight_semibold cart-form__description_ellipsis cart-form__description_condensed-other']/span");
-
 
     public CartPage clickPlusButton() {
 

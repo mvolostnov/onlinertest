@@ -5,10 +5,8 @@ import by.onliner.test.data.entities.ErrorMessagesData;
 import by.onliner.test.data.entities.SecurityQuestionData;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -16,7 +14,6 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
 @Log4j
 public class RCCreateAccountPage extends WebDriverInstance {
-
 
     private final By firstNameField = By.xpath("//input[@placeholder='First name/Given name']");
     private final By lastNameField = By.xpath("//input[@placeholder='Last name/Surname']");

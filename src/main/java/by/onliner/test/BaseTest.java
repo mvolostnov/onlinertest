@@ -50,7 +50,7 @@ public class BaseTest {
     @BeforeSuite(alwaysRun = true)
     public void browserSetup() throws IOException {
 
-        String envName = System.getProperty("environment", "stage").toLowerCase();
+        String envName = System.getProperty("environment", "qa").toLowerCase();
         PropertyLoader properties = new PropertyLoader();
         baseUrl = properties.getProperty(String.format("env/%s.properties", envName), "app.url");
 

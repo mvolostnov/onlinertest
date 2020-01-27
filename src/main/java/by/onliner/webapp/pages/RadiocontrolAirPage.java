@@ -135,7 +135,7 @@ public class RadiocontrolAirPage {
                 .until(visibilityOfElementLocated(compareButton));
         driver.findElement(compareButton).click();
         log.info("Open Comparison");
-        return new ComparisonPage(driver);
+        return new ComparisonPage();
     }
 
 

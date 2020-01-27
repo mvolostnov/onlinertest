@@ -1,10 +1,8 @@
 package by.onliner.webapp.pages;
 
 import by.onliner.test.WebDriverInstance;
-import lombok.NoArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.assertj.core.api.Assertions.assertThat;

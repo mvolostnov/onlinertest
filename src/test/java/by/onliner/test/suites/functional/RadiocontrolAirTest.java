@@ -18,7 +18,7 @@ public  class RadiocontrolAirTest extends BaseTest {
     public Object[][] testData() {
         return new Object[][] {
                 new Object[] {QuadrocopterData.builder()
-                        .materials(Arrays.asList("металл", "пластик"))
+                        .materials(Arrays.asList("бальза", "металл", "пластик"))
                         .minimalRange("100")
                         .engineType("бесколлекторный")
                         .build(),

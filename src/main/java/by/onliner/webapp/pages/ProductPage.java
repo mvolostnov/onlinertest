@@ -1,5 +1,6 @@
 package by.onliner.webapp.pages;
 
+import by.onliner.test.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.*;
@@ -11,21 +12,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 @Log4j
-public class ProductPage {
-    private WebDriver driver;
-
-    public ProductPage(WebDriver driver) {
-        this.driver = driver;
-    }
+public class ProductPage extends WebDriverInstance {
 
     private final By addToCartButton = By.xpath("//aside[@class='product-aside js-product-aside']//a[@class='button button_orange product-aside__item-button']");
-
     private final By cartIconHeader = By.xpath("//div[@class='b-top-actions']//a[@title='Корзина']");
-
     private final By productDescription = By.xpath("//div[@class='product-specs__main-group product-specs__group--full js-specs-full is-visible']//td[contains(text(),'Тип')]");
-
-    private final By productPrice = By.xpath(" //span[@class='helpers_hide_tablet']");
-
+    private final By productPrice = By.xpath("//span[@class='helpers_hide_tablet']");
     private final By numberOfProductsInCartHeaderCounter= By.xpath("//div[@class='b-top-actions']//div[contains(@class,'auth-bar__counter')]");
 
     public WebElement numberOfProductsInCartHeader(int numberOfProductsInCart) {
@@ -35,7 +27,6 @@ public class ProductPage {
     public WebElement typeOfProduct(String typeOfProduct) {
         return driver.findElement(By.xpath(String.format("//table[@class='product-specs__table']//span[contains(text(),'%s')]", typeOfProduct)));
     }
-
 
     public ProductPage addProductToCart() {
 
@@ -54,7 +45,7 @@ public class ProductPage {
         driver.findElement(cartIconHeader).click();
         log.info("Open Cart in Header");
 
-        return new CartPage(driver);
+        return new CartPage();
     }
 
     public ProductPage verifyNumberOfProductsInCartHeader(int numberOfProductsInCart) {
@@ -87,12 +78,20 @@ public class ProductPage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(productPrice));
 
         for (String element : typeOfProduct) {
-            if  (typeOfProduct(element).isDisplayed()) {
+            WebElement productMaterial;
+            try {
+                productMaterial = typeOfProduct(element);
+
+            } catch (WebDriverException e) {
+   //             log.error(e.getMessage(), e);
+                continue;
+            }
+            if  (productMaterial.isDisplayed()) {
                 log.info("Select Left Menu Item: " + element);
                 return this;
             }
         }
-        throw  new ElementNotVisibleException("No elements found");
+        throw new ElementNotVisibleException("No elements found");
     }
 
 }
