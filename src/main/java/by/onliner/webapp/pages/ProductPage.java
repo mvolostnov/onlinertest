@@ -1,8 +1,7 @@
 package by.onliner.webapp.pages;
 
-import by.onliner.test.WebDriverInstance;
+import com.maxim.testframework.webdriver.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
-import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

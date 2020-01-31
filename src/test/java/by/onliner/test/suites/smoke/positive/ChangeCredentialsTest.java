@@ -3,7 +3,7 @@ package by.onliner.test.suites.smoke.positive;
 import by.onliner.test.BaseTest;
 import by.onliner.test.data.entities.RCCreateAccountData;
 import by.onliner.test.data.entities.SecurityQuestionData;
-import by.onliner.utils.RandomString;
+import com.maxim.testframework.utils.RandomString;
 import by.onliner.webapp.pages.MyAccountPage;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

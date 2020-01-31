@@ -1,6 +1,0 @@
-
-Gsquid:S1481")Remove this unused "time" local variable.(¤¢ï8ÀèØ¢ú-
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(²àéÁüÿÿÿÿ8ÀèØ¢ú-
-Vsquid:S1854"8Remove this useless assignment to local variable "time".(¤¢ï8ÀèØ¢ú-
-lsquid:S2259#"IA "NullPointerException" could be thrown; "inputStream" is nullable here.(¶ò†Áşÿÿÿÿ8ÀèØ¢ú-

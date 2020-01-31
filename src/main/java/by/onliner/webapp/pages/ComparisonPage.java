@@ -1,6 +1,6 @@
 package by.onliner.webapp.pages;
 
-import by.onliner.test.WebDriverInstance;
+import com.maxim.testframework.webdriver.WebDriverInstance;
 import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

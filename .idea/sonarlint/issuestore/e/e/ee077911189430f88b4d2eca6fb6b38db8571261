@@ -1,4 +1,4 @@
 
-^squid:S5361>"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„Ù†Q
-gsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(õè¿Àþÿÿÿÿ
-_squid:S5361A"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÏÀø‹
+esquid:UselessImportCheck":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8ì„é²þ-
+esquid:S5361)"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„Ù†Q8èÛ¡±þ-
+fsquid:S5361,"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÏÀø‹8èÛ¡±þ-

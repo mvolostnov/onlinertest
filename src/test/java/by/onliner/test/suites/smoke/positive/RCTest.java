@@ -3,19 +3,22 @@ package by.onliner.test.suites.smoke.positive;
 import by.onliner.test.BaseTest;
 import by.onliner.test.data.entities.RCCreateAccountData;
 import by.onliner.test.data.entities.SecurityQuestionData;
-import by.onliner.utils.RandomString;
+import com.maxim.testframework.utils.RandomString;
 import by.onliner.webapp.pages.MyAccountPage;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.extern.log4j.Log4j;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+@Getter
+@Setter
 @Log4j
 public class RCTest extends BaseTest {
 
 
     @DataProvider
-    public Object[][] contactData() {
+    public Object[][] accountData() {
         return new Object[][]{
                 new Object[]{RCCreateAccountData.builder()
                         .firstName("Firstname" + RandomString.randomString(6).toLowerCase())
@@ -32,26 +35,44 @@ public class RCTest extends BaseTest {
         };
     }
 
-    @Test (dataProvider = "contactData")
-    public void testRCsignUp(RCCreateAccountData contactData) throws InterruptedException {
 
-        extentTest.info("Start scenario with the following data: " + contactData.toString());
+    @Test (dataProvider = "accountData")
+    public void testRCsignUp(RCCreateAccountData accountData) throws InterruptedException {
+
+        extentTest.info("Start scenario with the following data: " + accountData.toString());
         app.openRCCreateAccountPage()
-                .enterFirstName(contactData.getFirstName())
-                .enterLastName(contactData.getLastName())
-                .selectMonthOfBirth(contactData.getMonthOfBirth())
-                .selectDayOfBirth(contactData.getDayOfBirth())
-                .selectYearOfBirth(contactData.getYearOfBirth())
-                .selectCounrtyOfResidence(contactData.getCountryOfResidence())
-                .enterEmail(contactData.getEmail())
-                .createNewPassword(contactData.getNewPassword())
-                .selectSecurityQuestion(contactData.getSecurityQuestion())
-                .enterAnswer(contactData.getAnswer())
+                .enterFirstName(accountData.getFirstName())
+                .enterLastName(accountData.getLastName())
+                .selectMonthOfBirth(accountData.getMonthOfBirth())
+                .selectDayOfBirth(accountData.getDayOfBirth())
+                .selectYearOfBirth(accountData.getYearOfBirth())
+                .selectCounrtyOfResidence(accountData.getCountryOfResidence())
+                .enterEmail(accountData.getEmail())
+                .createNewPassword(accountData.getNewPassword())
+                .selectSecurityQuestion(accountData.getSecurityQuestion())
+                .enterAnswer(accountData.getAnswer())
                 .selectTermsCheckbox()
                 .clickDoneButton(MyAccountPage.class)
-                .verifyThatAccountPage(contactData.getFirstName())
+                .verifyThatAccountPage(accountData.getFirstName())
                 ;
+
+        testContext.setAccountData(accountData);
     }
+/*
+    @Test ()
+    public void testRCsignUp2() {
+
+        RCCreateAccountData accountData = testContext.getAccountData();
+        accountData.setNewPassword("");
+
+        //app.profilaPage().updateCredentials(accountData);
+        app.openRCCreateAccountPage();
+        testContext.setAccountData(accountData);
+
+    }
+
+ */
+
 }
 
 

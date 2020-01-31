@@ -2,13 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533c2dc9-c409-4f04-8875-002942aac80f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-27T12-01-13.715radiocontrolAirTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-27T12-06-12.003radiocontrolAirTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-27T12-14-30.407radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T14-34-29.677testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T14-34-31.007testRCsignUp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T14-36-25.989testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T15-16-03.512testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T15-30-31.959radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T16-29-55.744radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-30T18-59-31.867testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T13-04-41.892testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T16-15-30.637testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T16-16-51.956testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T16-31-32.089testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T16-33-54.620testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T16-39-06.498testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T18-17-49.924testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-01-31T18-19-13.273testRCsignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/LocatorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/EmailInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17e7072e40433b1cbd0ba021e0da0534725ecd6e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17e7072e40433b1cbd0ba021e0da0534725ecd6e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35b6c401a21303372db616d93a2bb14ca12e8c88" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35b6c401a21303372db616d93a2bb14ca12e8c88" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a804ade0e636e1160f92786aa60f2b5a10a0372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e56d39b6106c70ae65557c5fe314c2a1ffeab10" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e56d39b6106c70ae65557c5fe314c2a1ffeab10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b60f9696c8190ea655d14116c57ab77aa70bc9ab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b60f9696c8190ea655d14116c57ab77aa70bc9ab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2113f1c1b2018a2daf1af578fac97d2d8a5cb24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee077911189430f88b4d2eca6fb6b38db8571261" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee077911189430f88b4d2eca6fb6b38db8571261" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/PropertyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/utils/PropertyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/WebDriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/WebDriverInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/utils/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/data/ReadSysVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/utils/RandomNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/utils/RandomNumeric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/utils/RandomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/utils/RandomString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ComparisonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ComparisonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/MyAccountPage.java" afterDir="false" />
@@ -16,20 +50,90 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RCCreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RCCreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RadiocontrolAirPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RadiocontrolAirPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/functional/RadiocontrolAirTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/functional/RadiocontrolAirTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/smoke/negative/RCNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/smoke/negative/RCNegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/WebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ComparisonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ComparisonPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/MyAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/MyAccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RCCreateAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RCCreateAccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/log_txt.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/log_txt.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/negative/RCNegativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/negative/RCNegativeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/smoke/positive/ChangeCredentialsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/smoke/positive/ChangeCredentialsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/smoke/positive/RCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/smoke/positive/RCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/onlinertest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/PropertyLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/WebDriverInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/GetScreenShot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/ReadSysVariables$ReadEnvironmentVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/ReadSysVariables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/TestData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/ErrorMessagesData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/ExpectedData$ExpectedDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/ExpectedData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/MainMenuData$MainMenuDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/MainMenuData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/ProductMenuData$ProductMenuDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/ProductMenuData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/QuadrocopterData$QuadrocopterDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/QuadrocopterData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/RCCreateAccountData$RCCreateAccountDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/RCCreateAccountData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/data/entities/SecurityQuestionData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/utils/RandomNumeric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/utils/RandomString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/WebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ComparisonPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/MyAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerCatalogPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RCCreateAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RadiocontrolAirPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/log_txt.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Onlinertests/Onliner catalog tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Onlinertests/Onliner catalog tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-by.onliner.test.suites.smoke.RCTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/Onliner catalog tests.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Onlinertests/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/onlinertest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/QuadrocopterSearchResultsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/negative/RCNegativeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/positive/ChangeCredentialsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/positive/RCTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/positive/SmokeTest_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/smoke/positive/SmokeTest_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/env/qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/env/stage.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/functionaltests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/smoketests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +175,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/by/onliner/webapp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../htmlelements-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -103,7 +207,7 @@
       <recent name="by.onliner.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RadiocontrolAirTest">
+  <component name="RunManager" selected="TestNG.RCTest">
     <configuration name="D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="onlinertest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -202,9 +306,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RCTest" />
         <item itemvalue="TestNG.RadiocontrolAirTest" />
         <item itemvalue="TestNG.RCNegativeTest" />
-        <item itemvalue="TestNG.RCTest" />
         <item itemvalue="TestNG.RadiocontrolAirTest.radiocontrolAirTest" />
         <item itemvalue="TestNG.D:/Automation/GitHub/onlinertest/src/test/resources/testng.xml" />
       </list>
@@ -239,6 +343,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580384852210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580384852210" />
     <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578920568464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,10 +355,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579878282324" />
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580396457387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580396457387" />
     <state x="664" y="273" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1579878030954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="273" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579878030954" />
+    <state x="588" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580395598917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580395598917" />
     <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578920843167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,42 +375,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578500374042" />
-    <state x="782" y="410" key="FileChooserDialogImpl" timestamp="1579875226619">
+    <state x="782" y="410" key="FileChooserDialogImpl" timestamp="1580385085589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="782" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579875226619" />
-    <state width="1877" height="226" key="GridCell.Tab.0.bottom" timestamp="1580120408933">
+    <state x="782" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580385085589" />
+    <state width="1877" height="420" key="GridCell.Tab.0.bottom" timestamp="1580483919469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580120408933" />
-    <state width="1877" height="226" key="GridCell.Tab.0.center" timestamp="1580120408933">
+    <state width="1877" height="420" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580483919469" />
+    <state width="1877" height="420" key="GridCell.Tab.0.center" timestamp="1580483919469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580120408933" />
-    <state width="1877" height="226" key="GridCell.Tab.0.left" timestamp="1580120408933">
+    <state width="1877" height="420" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580483919469" />
+    <state width="1877" height="420" key="GridCell.Tab.0.left" timestamp="1580483919469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580120408933" />
-    <state width="1877" height="226" key="GridCell.Tab.0.right" timestamp="1580120408933">
+    <state width="1877" height="420" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580483919469" />
+    <state width="1877" height="420" key="GridCell.Tab.0.right" timestamp="1580483919469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580120408933" />
-    <state width="1406" height="327" key="GridCell.Tab.1.bottom" timestamp="1579881510007">
+    <state width="1877" height="420" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580483919469" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1580404582949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1406" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579881510007" />
-    <state width="1406" height="327" key="GridCell.Tab.1.center" timestamp="1579881510006">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580404582949" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1580404582949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1406" height="327" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579881510006" />
-    <state width="1406" height="327" key="GridCell.Tab.1.left" timestamp="1579881510006">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580404582949" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1580404582949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1406" height="327" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579881510006" />
-    <state width="1406" height="327" key="GridCell.Tab.1.right" timestamp="1579881510007">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580404582949" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1580404582949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1406" height="327" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579881510007" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580404582949" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1576841739737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -307,10 +423,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="375" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578569598685" />
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1580049759112">
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1580396543556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580049759112" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580396543556" />
+    <state x="342" y="141" key="new project wizard" timestamp="1580214242116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580214242116" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1579252215817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

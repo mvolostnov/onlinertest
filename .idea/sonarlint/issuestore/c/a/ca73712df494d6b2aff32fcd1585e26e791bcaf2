@@ -1,0 +1,16 @@
+
+isquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(îì£Ç8Ë¿é¶ÿ-
+osquid:CommentedOutCodeLine‘"<This block of commented-out lines of code should be removed.(ºœÅãÿÿÿÿÿ8©Ç­±ÿ-
+jsquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(‡º´Ì8ÆÔÙÞþ-
+osquid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÝ¿¤üÿÿÿÿ
+osquid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úš¬‡ÿÿÿÿÿ
+8squid:S2275$"Not enough arguments.(»óùÿÿÿÿÿ8âšØ¶ÿ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ï™þõÿÿÿÿÿ8Ôü³±ÿ-
+nsquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(É¶“¬øÿÿÿÿ8©Ç­±ÿ-
+hsquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(·¹œ¹þÿÿÿÿ
+hsquid:CommentedOutCodeLineß"<This block of commented-out lines of code should be removed.(°ëûùÿÿÿÿ
+bsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(Œœè×
+jsquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(†¶Ëæ8©Ç­±ÿ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(—Üãâüÿÿÿÿ8é¢á²ÿ-
+isquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(æË‡Î8´ŸŽµÿ-
+hsquid:CallToDeprecatedMethod»"3Remove this use of "newInstance"; it is deprecated.(‰„ÔÜúÿÿÿÿ8ˆ‰û³þ-

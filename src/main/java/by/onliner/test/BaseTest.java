@@ -1,17 +1,19 @@
 package by.onliner.test;
 
-import by.onliner.test.data.ExtentManager;
+import com.maxim.testframework.utils.ExtentManager;
+import by.onliner.test.data.TestContext;
+import com.maxim.testframework.utils.PropertyLoader;
 import by.onliner.webapp.WebApplication;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import com.maxim.testframework.webdriver.WebDriverInstance;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -45,15 +47,16 @@ public class BaseTest {
 
     //for maven profiles
     protected static String baseUrl;
-//    protected static Capabilities capabilities;
+
+    protected static TestContext testContext = new TestContext();
+
 
     @BeforeSuite(alwaysRun = true)
     public void browserSetup() throws IOException {
 
-        String envName = System.getProperty("environment", "qa").toLowerCase();
+        String envName = System.getProperty("environment", "stage").toLowerCase();
         PropertyLoader properties = new PropertyLoader();
         baseUrl = properties.getProperty(String.format("env/%s.properties", envName), "app.url");
-
 
 
         WebDriver driver = initDriver(BrowserType.CHROME);
@@ -73,11 +76,12 @@ public class BaseTest {
 
 
     @BeforeMethod
-    public void beforeEachTest(Method method) throws IOException {
+    public void beforeEachTest(Method method) throws IOException, InterruptedException {
 
         extentTest = extentReports.createTest(getClass().getName());
         WebDriverInstance.getDriver().get(baseUrl);
         log.info("Open :" + baseUrl);
+        Thread.sleep(5000);
         }
 
 
