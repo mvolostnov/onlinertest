@@ -9,6 +9,8 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import lombok.extern.log4j.Log4j;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 //@AllArgsConstructor
@@ -26,6 +28,10 @@ public class Element extends WebDriverInstance {
         return driver.findElement(lh.getByType(locator));
     }
 
+    public Element setLocatorVariable(Object var) {
+        return new Element(String.format(locator, var));
+    }
+
     public boolean isPresent() {
         try{
             if (getElement() != null) {
@@ -35,7 +41,7 @@ public class Element extends WebDriverInstance {
  //          log.error(e.getMessage(), e);
  //           System.out.println(e.getMessage(), e);
             return false;
-    }
+        }
         return false;
     }
 
@@ -52,26 +58,37 @@ public class Element extends WebDriverInstance {
         return false;
     }
 
+
     public void click(){
-        if (isVisible()){
+  //      if (isVisible()){
             getElement().click();
-            return;
+   //         return;
         }
-        throw new IllegalArgumentException("[Element] Element [" + locator + "] is NOT present in DOM or is NOT visible");
-    }
+ //       throw new IllegalArgumentException("[Element] Element [" + locator + "] is NOT present in DOM or is NOT visible");
+ //   }
+
+    public String getText(){
+ //       if (isVisible()){
+        return getElement().getText();
+
+                    }
+ //       throw new IllegalArgumentException("[Element] Element [" + locator + "] is NOT present in DOM or is NOT visible");
+ //   }
+
 
     public Element waitForToBeDisplayed() {
         new WebDriverWait(driver, 10).until(visibilityOfElementLocated(lh.getByType(locator)));
         return this;
     }
 
-    public Element selectValue(String locator){
-        getElement().click();
+    public Element waitForToBeClickable() {
+        new WebDriverWait(driver, 10).until(elementToBeClickable(lh.getByType(locator)));
         return this;
     }
 
-    public Element setLocatorVariable(Object var) {
-        return new Element(String.format(locator, var));
+    public Element selectValue(String locator){
+        getElement().click();
+        return this;
     }
 
 

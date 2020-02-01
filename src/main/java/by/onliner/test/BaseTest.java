@@ -54,7 +54,7 @@ public class BaseTest {
     @BeforeSuite(alwaysRun = true)
     public void browserSetup() throws IOException {
 
-        String envName = System.getProperty("environment", "stage").toLowerCase();
+        String envName = System.getProperty("environment", "qa").toLowerCase();
         PropertyLoader properties = new PropertyLoader();
         baseUrl = properties.getProperty(String.format("env/%s.properties", envName), "app.url");
 
@@ -76,12 +76,12 @@ public class BaseTest {
 
 
     @BeforeMethod
-    public void beforeEachTest(Method method) throws IOException, InterruptedException {
+    public void beforeEachTest(Method method) {
 
         extentTest = extentReports.createTest(getClass().getName());
         WebDriverInstance.getDriver().get(baseUrl);
         log.info("Open :" + baseUrl);
-        Thread.sleep(5000);
+
         }
 
 
@@ -108,11 +108,11 @@ public class BaseTest {
                 // result.getName() will return name of test case so that screenshot name will be same as test case name
                 String screenShotPath = SCREENSHOTS_PATH + LocalDateTime.now().toString().replaceAll(":", "-") + result.getName() + ".png";
                 FileUtils.copyFile(src, new File(screenShotPath));
-                System.out.println("Successfully captured a screenshot");
+                log.info("Successfully captured a screenshot");
                 extentTest.fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath).build());
 
                 } catch (Exception e){
-                    System.out.println("Exception while taking screenshot "+e.getMessage());
+                    log.info("Exception while taking screenshot "+e.getMessage());
                 }
 
             }

@@ -62,7 +62,8 @@ public class RCCreateAccountPage extends WebDriverInstance {
 
     public RCCreateAccountPage selectYearOfBirth(String yearOfBirth) {
 
-        yearOfBirthField.waitForToBeDisplayed().setValue(yearOfBirth);
+        yearOfBirthField.waitForToBeDisplayed();
+        yearOfBirthField.setValue(yearOfBirth);
         log.info("Select Year of Birth: " + yearOfBirth);
         return this;
     }
@@ -84,7 +85,8 @@ public class RCCreateAccountPage extends WebDriverInstance {
 
     public RCCreateAccountPage createNewPassword(String newPassword) {
 
-        newPasswordField.waitForToBeDisplayed().setValue(newPassword);
+        newPasswordField.waitForToBeDisplayed();
+        newPasswordField.setValue(newPassword);
         log.info("Create new Password: " + newPassword);
         return this;
     }
@@ -99,14 +101,15 @@ public class RCCreateAccountPage extends WebDriverInstance {
 
     public RCCreateAccountPage enterAnswer(String answer) {
 
-        answerField.waitForToBeDisplayed().setValue(answer);
+        answerField.waitForToBeDisplayed();
+        answerField.setValue(answer);
         log.info("Enter Answer: " + answer);
         return this;
     }
 
     public RCCreateAccountPage selectTermsCheckbox () throws InterruptedException {
 
-        termsCheckbox.select();
+        termsCheckbox.set(true);
         log.info("Click Terms Checkbox");
         return this;
     }
@@ -128,7 +131,6 @@ public class RCCreateAccountPage extends WebDriverInstance {
         }
         return null;
     }
-
 
 
     public RCCreateAccountPage verifyThatErrorMessages() {

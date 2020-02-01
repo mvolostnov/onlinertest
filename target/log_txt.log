@@ -526,3 +526,157 @@
 2020-01-31 18:19:00 INFO  RCCreateAccountPage:110 - Click Terms Checkbox
 2020-01-31 18:19:00 INFO  RCCreateAccountPage:124 - Click Done Button
 2020-01-31 18:19:13 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (b5df5c375cf496a9b43938a15ac54df5)
+2020-01-31 18:55:43 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (ebf478a077b110d2cc48b69a12ca368a)
+2020-01-31 18:55:47 INFO  BaseTest:67 - Maximize browser's window
+2020-01-31 18:55:49 INFO  BaseTest:83 - Open :https://www.stage2.royalcaribbean.com/account/create
+2020-01-31 18:55:54 INFO  RCCreateAccountPage:36 - Enter First Name: Firstnamecjrqhl
+2020-01-31 18:55:54 INFO  RCCreateAccountPage:43 - Enter Last Name: Lastnameavxhkf
+2020-01-31 18:55:55 INFO  RCCreateAccountPage:51 - Select Month of Birth: November
+2020-01-31 18:55:55 INFO  RCCreateAccountPage:59 - Select Day of Birth: 27
+2020-01-31 18:55:55 INFO  RCCreateAccountPage:66 - Select Year of Birth: 1990
+2020-01-31 18:55:56 INFO  RCCreateAccountPage:74 - Select Country of Residence: Chile
+2020-01-31 18:55:57 INFO  RCCreateAccountPage:81 - Enter Email: xuynte@mail.com
+2020-01-31 18:55:57 INFO  RCCreateAccountPage:88 - Create new Password: 1Qwertyui
+2020-01-31 18:55:58 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (ebf478a077b110d2cc48b69a12ca368a)
+2020-01-31 18:59:51 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (2cfd450d459c6414163311fa6234320c)
+2020-01-31 18:59:55 INFO  BaseTest:67 - Maximize browser's window
+2020-01-31 18:59:56 INFO  BaseTest:83 - Open :https://www.stage2.royalcaribbean.com/account/create
+2020-01-31 19:00:02 INFO  RCCreateAccountPage:36 - Enter First Name: Firstnameqdcohh
+2020-01-31 19:00:02 INFO  RCCreateAccountPage:43 - Enter Last Name: Lastnameibhdwf
+2020-01-31 19:00:02 INFO  RCCreateAccountPage:51 - Select Month of Birth: November
+2020-01-31 19:00:03 INFO  RCCreateAccountPage:59 - Select Day of Birth: 27
+2020-01-31 19:00:03 INFO  RCCreateAccountPage:66 - Select Year of Birth: 1990
+2020-01-31 19:00:03 INFO  RCCreateAccountPage:74 - Select Country of Residence: Chile
+2020-01-31 19:00:04 INFO  RCCreateAccountPage:81 - Enter Email: okqdbt@mail.com
+2020-01-31 19:00:04 INFO  RCCreateAccountPage:88 - Create new Password: 1Qwertyui
+2020-01-31 19:00:05 INFO  RCCreateAccountPage:96 - Select security Question:  What elementary school did you go to? 
+2020-01-31 19:00:05 INFO  RCCreateAccountPage:103 - Enter Answer: You
+2020-01-31 19:00:05 INFO  RCCreateAccountPage:110 - Click Terms Checkbox
+2020-01-31 19:00:05 INFO  RCCreateAccountPage:124 - Click Done Button
+2020-01-31 19:00:10 INFO  MyAccountPage:32 - Verify Account Page URL: https://www.stage2.royalcaribbean.com/account/
+2020-01-31 19:00:10 INFO  MyAccountPage:37 - Verify User name: Firstnameqdcohh
+2020-01-31 19:00:11 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (2cfd450d459c6414163311fa6234320c)
+2020-01-31 19:03:26 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (31e62d31a0ed67498b64ed16919c73d7)
+2020-01-31 19:03:30 INFO  BaseTest:67 - Maximize browser's window
+2020-01-31 19:03:32 INFO  BaseTest:83 - Open :https://www.stage2.royalcaribbean.com/account/create
+2020-01-31 19:03:34 INFO  RCCreateAccountPage:36 - Enter First Name: Firstnameiuuaol
+2020-01-31 19:03:34 INFO  RCCreateAccountPage:43 - Enter Last Name: Lastnameqmflsr
+2020-01-31 19:03:35 INFO  RCCreateAccountPage:51 - Select Month of Birth: November
+2020-01-31 19:03:35 INFO  RCCreateAccountPage:59 - Select Day of Birth: 27
+2020-01-31 19:03:35 INFO  RCCreateAccountPage:66 - Select Year of Birth: 1990
+2020-01-31 19:03:35 INFO  RCCreateAccountPage:74 - Select Country of Residence: Chile
+2020-01-31 19:03:36 INFO  RCCreateAccountPage:81 - Enter Email: sfaatt@mail.com
+2020-01-31 19:03:37 INFO  RCCreateAccountPage:88 - Create new Password: 1Qwertyui
+2020-01-31 19:03:37 INFO  RCCreateAccountPage:96 - Select security Question:  What elementary school did you go to? 
+2020-01-31 19:03:37 INFO  RCCreateAccountPage:103 - Enter Answer: You
+2020-01-31 19:03:37 INFO  RCCreateAccountPage:110 - Click Terms Checkbox
+2020-01-31 19:03:37 INFO  RCCreateAccountPage:124 - Click Done Button
+2020-01-31 19:03:40 INFO  MyAccountPage:32 - Verify Account Page URL: https://www.stage2.royalcaribbean.com/account/
+2020-01-31 19:03:42 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (31e62d31a0ed67498b64ed16919c73d7)
+2020-01-31 19:06:24 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (fb59f4d16cbc94c9f79321aed8941ad1)
+2020-01-31 19:06:29 INFO  BaseTest:67 - Maximize browser's window
+2020-01-31 19:06:30 INFO  BaseTest:83 - Open :https://www.stage2.royalcaribbean.com/account/create
+2020-01-31 19:06:31 INFO  RCCreateAccountPage:36 - Enter First Name: Firstnamehasoad
+2020-01-31 19:06:32 INFO  RCCreateAccountPage:43 - Enter Last Name: Lastnamegmmskh
+2020-01-31 19:06:32 INFO  RCCreateAccountPage:51 - Select Month of Birth: November
+2020-01-31 19:06:32 INFO  RCCreateAccountPage:59 - Select Day of Birth: 27
+2020-01-31 19:06:32 INFO  RCCreateAccountPage:66 - Select Year of Birth: 1990
+2020-01-31 19:06:33 INFO  RCCreateAccountPage:74 - Select Country of Residence: Chile
+2020-01-31 19:06:34 INFO  RCCreateAccountPage:81 - Enter Email: ksymvj@mail.com
+2020-01-31 19:06:34 INFO  RCCreateAccountPage:88 - Create new Password: 1Qwertyui
+2020-01-31 19:06:34 INFO  RCCreateAccountPage:96 - Select security Question:  What elementary school did you go to? 
+2020-01-31 19:06:34 INFO  RCCreateAccountPage:103 - Enter Answer: You
+2020-01-31 19:06:35 INFO  RCCreateAccountPage:110 - Click Terms Checkbox
+2020-01-31 19:06:35 INFO  RCCreateAccountPage:124 - Click Done Button
+2020-01-31 19:06:38 INFO  MyAccountPage:32 - Verify Account Page URL: https://www.stage2.royalcaribbean.com/account/
+2020-01-31 19:06:38 INFO  MyAccountPage:38 - Verify User name: Firstnamehasoad
+2020-01-31 19:06:38 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (fb59f4d16cbc94c9f79321aed8941ad1)
+2020-01-31 19:07:49 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (e0c0b115d8ea2c3da395b1a9424ac618)
+2020-01-31 19:07:53 INFO  BaseTest:67 - Maximize browser's window
+2020-01-31 19:07:54 INFO  BaseTest:83 - Open :https://www.stage2.royalcaribbean.com/account/create
+2020-01-31 19:07:56 INFO  RCCreateAccountPage:36 - Enter First Name: Firstnamendpqox
+2020-01-31 19:07:56 INFO  RCCreateAccountPage:43 - Enter Last Name: Lastnamenkavsf
+2020-01-31 19:07:57 INFO  RCCreateAccountPage:51 - Select Month of Birth: November
+2020-01-31 19:07:57 INFO  RCCreateAccountPage:59 - Select Day of Birth: 27
+2020-01-31 19:07:57 INFO  RCCreateAccountPage:66 - Select Year of Birth: 1990
+2020-01-31 19:07:57 INFO  RCCreateAccountPage:74 - Select Country of Residence: Chile
+2020-01-31 19:07:58 INFO  RCCreateAccountPage:81 - Enter Email: dfixeb@mail.com
+2020-01-31 19:07:59 INFO  RCCreateAccountPage:88 - Create new Password: 1Qwertyui
+2020-01-31 19:07:59 INFO  RCCreateAccountPage:96 - Select security Question:  What elementary school did you go to? 
+2020-01-31 19:07:59 INFO  RCCreateAccountPage:103 - Enter Answer: You
+2020-01-31 19:07:59 INFO  RCCreateAccountPage:110 - Click Terms Checkbox
+2020-01-31 19:07:59 INFO  RCCreateAccountPage:124 - Click Done Button
+2020-01-31 19:08:03 INFO  MyAccountPage:32 - Verify Account Page URL: https://www.stage2.royalcaribbean.com/account/
+2020-01-31 19:08:03 INFO  MyAccountPage:38 - Verify User name: Firstnamendpqox
+2020-01-31 19:08:04 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (e0c0b115d8ea2c3da395b1a9424ac618)
+2020-02-01 17:26:57 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (50344f532a0ec7517c003dba80947e7f)
+2020-02-01 17:27:01 INFO  BaseTest:67 - Maximize browser's window
+2020-02-01 17:27:04 INFO  BaseTest:83 - Open :https://www.stage2.royalcaribbean.com/account/create
+2020-02-01 17:27:05 INFO  RCCreateAccountPage:36 - Enter First Name: Firstnamehyalqa
+2020-02-01 17:27:06 INFO  RCCreateAccountPage:43 - Enter Last Name: Lastnamerxkrcd
+2020-02-01 17:27:06 INFO  RCCreateAccountPage:51 - Select Month of Birth: November
+2020-02-01 17:27:06 INFO  RCCreateAccountPage:59 - Select Day of Birth: 27
+2020-02-01 17:27:06 INFO  RCCreateAccountPage:66 - Select Year of Birth: 1990
+2020-02-01 17:27:07 INFO  RCCreateAccountPage:74 - Select Country of Residence: Chile
+2020-02-01 17:27:08 INFO  RCCreateAccountPage:81 - Enter Email: qwtayu@mail.com
+2020-02-01 17:27:08 INFO  RCCreateAccountPage:88 - Create new Password: 1Qwertyui
+2020-02-01 17:27:08 INFO  RCCreateAccountPage:96 - Select security Question:  What elementary school did you go to? 
+2020-02-01 17:27:08 INFO  RCCreateAccountPage:103 - Enter Answer: You
+2020-02-01 17:27:08 INFO  RCCreateAccountPage:110 - Click Terms Checkbox
+2020-02-01 17:27:09 INFO  RCCreateAccountPage:124 - Click Done Button
+2020-02-01 17:27:12 INFO  MyAccountPage:23 - Verify Account Page URL: https://www.stage2.royalcaribbean.com/account/
+2020-02-01 17:27:12 INFO  MyAccountPage:28 - Verify User name: Firstnamehyalqa
+2020-02-01 17:27:13 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (50344f532a0ec7517c003dba80947e7f)
+2020-02-01 18:26:45 INFO  BaseTest:64 - Open browser ChromeDriver: chrome on WINDOWS (baaace1420e29f18a77f34a7f547ba80)
+2020-02-01 18:26:50 INFO  BaseTest:67 - Maximize browser's window
+2020-02-01 18:26:52 INFO  BaseTest:83 - Open :https://onliner.by/
+2020-02-01 18:26:52 INFO  RadiocontrolAirTest:106 -  !!! Startring test: Test #2.2 !!!
+2020-02-01 18:26:53 INFO  BaseTest:83 - Open :https://onliner.by/
+2020-02-01 18:26:54 INFO  OnlinerHomePage:22 - Open Top Menu Section: Каталог
+2020-02-01 18:26:55 INFO  OnlinerCatalogPage:33 - Select Catalog Category: Красота и спорт
+2020-02-01 18:26:55 INFO  OnlinerCatalogPage:40 - Select Catalog SubCategory: Хобби
+2020-02-01 18:26:58 INFO  OnlinerCatalogPage:47 - Select Catalog SubCategory: Радиоуправляемые авиамодели
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:147 - Checking Page Header
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:149 - Page header name is correct: Радиоуправляемые авиамодели
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:64 - Scroll to Left Menu Element: Тип
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:79 - Select Left Menu Item: квадрокоптер
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: бальза
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: металл
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:87 - Select Left Menu Item: пластик
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:111 - Set Minimal Range: 100
+2020-02-01 18:26:58 INFO  RadiocontrolAirPage:64 - Scroll to Left Menu Element: Дальность действия, м
+2020-02-01 18:26:59 INFO  RadiocontrolAirPage:117 - Open Additional Parameters
+2020-02-01 18:26:59 INFO  RadiocontrolAirPage:79 - Select Left Menu Item: бесколлекторный
+2020-02-01 18:26:59 INFO  RadiocontrolAirPage:158 - Verification that Number of Search Results is correct
+2020-02-01 18:26:59 INFO  RadiocontrolAirPage:165 - numberOfSearchResults: 102
+2020-02-01 18:26:59 INFO  RadiocontrolAirPage:71 - Scroll to Page Header
+2020-02-01 18:26:59 INFO  RadiocontrolAirPage:96 - Open Sorting menu
+2020-02-01 18:27:00 INFO  RadiocontrolAirPage:104 - Select Sorting by: Дешевые
+2020-02-01 18:27:00 INFO  RadiocontrolAirPage:172 - Verify that Sorting is correct
+2020-02-01 18:27:01 INFO  RadiocontrolAirPage:205 - Sorting is Correct: 149.0 > 99.0
+2020-02-01 18:27:01 INFO  RadiocontrolAirPage:129 - Select product № 0
+2020-02-01 18:27:01 INFO  RadiocontrolAirPage:129 - Select product № 2
+2020-02-01 18:27:02 INFO  RadiocontrolAirPage:129 - Select product № 4
+2020-02-01 18:27:02 INFO  RadiocontrolAirPage:129 - Select product № 5
+2020-02-01 18:27:02 INFO  RadiocontrolAirPage:211 - Verify That Compare Button contains 4 products
+2020-02-01 18:27:03 INFO  RadiocontrolAirPage:226 - Passed
+2020-02-01 18:27:04 INFO  RadiocontrolAirPage:137 - Open Comparison
+2020-02-01 18:27:06 INFO  ComparisonPage:17 - Select Compared Product Index 1
+2020-02-01 18:27:06 INFO  ProductPage:67 - Verify That Product Description contains: квадрокоптер
+2020-02-01 18:27:06 INFO  ProductPage:69 - Passed
+2020-02-01 18:27:10 INFO  ProductPage:89 - Select Left Menu Item: пластик
+2020-02-01 18:27:10 INFO  ProductPage:67 - Verify That Product Description contains: бесколлекторный
+2020-02-01 18:27:10 INFO  ProductPage:69 - Passed
+2020-02-01 18:27:10 INFO  ProductPage:35 - Add Product To Cart
+2020-02-01 18:27:10 INFO  ProductPage:52 - Verify Number Of Products In Cart Header
+2020-02-01 18:27:11 INFO  ProductPage:56 - Passed
+2020-02-01 18:27:12 INFO  ProductPage:45 - Open Cart in Header
+2020-02-01 18:27:12 INFO  CartPage:36 - Click Plus Button
+2020-02-01 18:27:12 INFO  CartPage:41 - Verify That Total Price is correct
+2020-02-01 18:27:12 INFO  CartPage:47 - singlePriceToDouble = 338.0
+2020-02-01 18:27:12 INFO  CartPage:50 - singlePriceToDouble = 338.0
+2020-02-01 18:27:12 INFO  CartPage:53 - Passed
+2020-02-01 18:27:12 INFO  CartPage:60 - Do Checkout
+2020-02-01 18:27:12 INFO  CartPage:65 - Verify That Login Popup appears
+2020-02-01 18:27:12 INFO  CartPage:70 - Passed
+2020-02-01 18:27:13 INFO  BaseTest:90 - Close browserChromeDriver: chrome on WINDOWS (baaace1420e29f18a77f34a7f547ba80)

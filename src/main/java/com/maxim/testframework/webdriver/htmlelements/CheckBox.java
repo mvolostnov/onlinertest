@@ -35,4 +35,12 @@ public class CheckBox extends Element{
         }
     }
 
+    public void set(boolean value) {
+        if (value) {
+            select();
+        } else {
+            deselect();
+        }
+    }
+
 }
