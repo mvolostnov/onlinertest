@@ -9,9 +9,8 @@ public class Input extends Element {
         super(locator);
     }
 
-    public Input setValue(String value){
+    public void setValue(String value){
         getElement().sendKeys(value);
-        return this;
     }
 
     public Input setValue(int value){
@@ -43,14 +42,10 @@ public class Input extends Element {
         return this;
     }
 
-/*
-    public Input waitForToBeDisplayed(){
+    public Input waitForToBeDisplayed() {
         super.waitForToBeDisplayed();
         return this;
     }
-
- */
-
 
 }
 

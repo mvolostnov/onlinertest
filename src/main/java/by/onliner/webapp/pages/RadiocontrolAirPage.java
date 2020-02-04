@@ -1,127 +1,119 @@
 package by.onliner.webapp.pages;
 
-import org.apache.log4j.Logger;
-import org.openqa.selenium.*;
+import com.maxim.testframework.webdriver.WebDriverInstance;
+import com.maxim.testframework.webdriver.htmlelements.Button;
+import com.maxim.testframework.webdriver.htmlelements.CheckBox;
+import com.maxim.testframework.webdriver.htmlelements.Element;
+import com.maxim.testframework.webdriver.htmlelements.Input;
+import lombok.extern.log4j.Log4j;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
-public class RadiocontrolAirPage {
-    private static final Logger log = Logger.getLogger(RadiocontrolAirPage.class);
+@Log4j
+public class RadiocontrolAirPage extends WebDriverInstance {
 
-    private WebDriver driver;
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-
+    /*
+    //    private static final Logger log = Logger.getLogger(RadiocontrolAirPage.class);
+//    private WebDriver driver;
+//    JavascriptExecutor js = (JavascriptExecutor) driver;
     public RadiocontrolAirPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+     */
 
-    private final By compareButton = By.xpath("//div[@class='compare-button-container']//span[contains(text(),'товара')]");
 
+//    private  final By headerTitleWE = By.xpath("//h1[@class='schema-header__title']");
+    private final By productCheckboxWE = By.xpath("//div[@id='schema-products']//span[@class='i-checkbox__faux']");
 
-    public WebElement leftMenuItem(String leftMenuItem) {
-        return driver.findElement(By.xpath(String.format("//div[@id='schema-filter']//span[text()='%s']", leftMenuItem)));
-    }
+    private final Button compareButton = new Button("//div[@class='compare-button-container']//span[contains(text(),'товара')]");
+    private final Element sortingMenu = new Element("//div[@class='js-schema-results schema-grid__center-column']//a[@class='schema-order__link']");
+    private final Element headerTitle = new Element("//h1[@class='schema-header__title']");
+    private  final Input minimalRange = new Input("//div[@id='schema-filter']//input[@placeholder=5]");
+    private final Element additionalParameters = new Element("//div[@id='schema-filter']//a[@data-bind='click: $root.toggleAdditionalParameters.bind($root)']");
+    private final CheckBox productCheckbox = new CheckBox("//div[@id='schema-products']//span[@class='i-checkbox__faux']");
+    private final Element leftMenuItemTemplate = new Element("//div[@id='schema-filter']//span[text()='%s']");
+    private final Element sortingMenuItemTemplate = new Element("//div[@class='schema-order__popover']//span[text()='%s']");
+    private final Button compareButtonWithProductsTemplate = new Button("//div[@class='compare-button compare-button_visible']//span[contains(text(),'%d')]");
+    private final Element numberOfSearchResultsTemplate = new Element("//div[@class='schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control']//span[contains(text(),'Найдено %d')]");
 
-    private  final By sortingMenu = By.xpath("//div[@class='js-schema-results schema-grid__center-column']//a[@class='schema-order__link']");
-
-    public WebElement sortingMenuItem(String sortingMenuItem) {
+/*
+    public WebElement sortingMenuItemWE(String sortingMenuItem) {
         return driver.findElement(By.xpath(String.format("//div[@class='schema-order__popover']//span[text()='%s']"
                 , sortingMenuItem)));
     }
+ */
 
-
-    public WebElement compareButtonWithProducts(int numberOfProducts) {
-        return driver.findElement(By.xpath(String.format("//div[@class='compare-button compare-button_visible']//span[contains(text(),'%d')]"
-                ,numberOfProducts)));
-    }
-
-    public WebElement numberOfSearchResults(int numberOfSearchResults) {
-        return driver.findElement(By.xpath(String.format("//div[@class='schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control']//span[contains(text(),'Найдено %d')]"
-                ,numberOfSearchResults )));
-
-    }
-
-    private  final By headerTitle = By.xpath("//h1[@class='schema-header__title']");
-
-    private  final By minimalRange = By.xpath("//div[@id='schema-filter']//input[@placeholder=5]");
-
-    private final By additionalParameters = By.xpath("//div[@id='schema-filter']//a[@data-bind='click: $root.toggleAdditionalParameters.bind($root)']");
-
-    private final By productCheckbox = By.xpath("//div[@id='schema-products']//span[@class='i-checkbox__faux']");
 
 
     public RadiocontrolAirPage scrollToLeftMenuElement(String leftMenuElement) {
+
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.xpath(String.format("//div[@id='schema-filter']//span[text()='%s']", leftMenuElement))));
         log.info("Scroll to Left Menu Element: " + leftMenuElement);
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
     public RadiocontrolAirPage scrollToPageHeader()  {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",
-                driver.findElement(headerTitle));
+        headerTitle.scrollTo();
+ //       ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",
+ //               driver.findElement(headerTitleWE));
         log.info("Scroll to Page Header" );
         return this;
     }
 
     public RadiocontrolAirPage selectLeftMenuItem(String leftMenuItem)  {
-        new WebDriverWait(driver, 10)
-                .until(elementToBeClickable(leftMenuItem(leftMenuItem)));
-        leftMenuItem(leftMenuItem).click();
+        leftMenuItemTemplate.setLocatorVariable(leftMenuItem).waitForToBeClickable().click();
         log.info("Select Left Menu Item: " + leftMenuItem);
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
     public RadiocontrolAirPage selectLeftMenuItem(List<String> leftMenuItem)  {
 
         for (String element : leftMenuItem) {
-            leftMenuItem(element).click();
+            leftMenuItemTemplate.setLocatorVariable(element).click();
             log.info("Select Left Menu Item: " + element);
         }
-
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
     public RadiocontrolAirPage selectSortingBy(String sortingMenuItem) {
 
-        new WebDriverWait(driver, 10).until(elementToBeClickable(sortingMenu));
         log.info("Open Sorting menu");
-        new WebDriverWait(driver, 10).ignoring(ElementClickInterceptedException.class)
-                .until(elementToBeClickable(sortingMenu));
-        driver.findElement(sortingMenu).click();
-
-        JavascriptExecutor executor = (JavascriptExecutor)driver;
-        executor.executeScript("arguments[0].click();", sortingMenuItem(sortingMenuItem));
+//        new WebDriverWait(driver, 10).ignoring(ElementClickInterceptedException.class)
+//                .until(elementToBeClickable(sortingMenu));
+        sortingMenu.waitForToBeClickable().click();
+//        JavascriptExecutor executor = (JavascriptExecutor)driver;
+//        executor.executeScript("arguments[0].click();", sortingMenuItemWE(sortingMenuItem));
+        sortingMenuItemTemplate.setLocatorVariable(sortingMenuItem).clickMenuItem();
 
         log.info("Select Sorting by: " + sortingMenuItem);
-
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
     public RadiocontrolAirPage setMinimalRange(String minimalRage)  {
-        driver.findElement(minimalRange).sendKeys(minimalRage);
+        minimalRange.setValue(minimalRage);
         log.info("Set Minimal Range: " + minimalRage);
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
     public RadiocontrolAirPage openAdditionalParameters()  {
-        driver.findElement(additionalParameters).click();
+        additionalParameters.click();
         log.info("Open Additional Parameters");
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
     public RadiocontrolAirPage selectProductByIndex(int index) {
-        new WebDriverWait(driver, 10).ignoring(ElementClickInterceptedException.class)
-                .until(visibilityOfElementLocated(productCheckbox));
-        List<WebElement> selectedProducts = driver.findElements(productCheckbox);
+        productCheckbox.waitForToBeDisplayed();
+        List<WebElement> selectedProducts = driver.findElements(productCheckboxWE);
 
         Actions actions = new Actions(driver);
         actions.moveToElement(selectedProducts.get(index)).click().build().perform();
@@ -131,19 +123,15 @@ public class RadiocontrolAirPage {
     }
 
     public ComparisonPage openComparison()  {
-        new WebDriverWait(driver, 10)
-                .until(visibilityOfElementLocated(compareButton));
-        driver.findElement(compareButton).click();
+        compareButton.waitForToBeClickable().click();
         log.info("Open Comparison");
         return new ComparisonPage();
     }
 
 
     public RadiocontrolAirPage checkThatPageHeaderContains(String headerName) {
-        new WebDriverWait(driver, 10)
-                .until(visibilityOfElementLocated(headerTitle));
-
-        String pageHeader = driver.findElement(headerTitle).getText();
+        headerTitle.waitForToBeDisplayed();
+        String pageHeader = headerTitle.getText();
         log.info("Checking Page Header");
         if (pageHeader.contains(headerName)) {
             log.info("Page header name is correct: " + pageHeader);
@@ -156,14 +144,9 @@ public class RadiocontrolAirPage {
 
     public RadiocontrolAirPage verifyThatNumberOfSearchResultsEqualsTo(int numberOfSearchResults) {
         log.info("Verification that Number of Search Results is correct");
-
-       new WebDriverWait(driver, 10)
-                .until(visibilityOfElementLocated(By.xpath(String.format("//div[@class='schema-filter-button__state schema-filter-button__state_initial schema-filter-button__state_disabled schema-filter-button__state_control']//span[contains(text(),'Найдено %d')]"
-                        , numberOfSearchResults ))));
-
-
+        numberOfSearchResultsTemplate.setLocatorVariable(numberOfSearchResults).waitForToBeDisplayed();
         log.info("numberOfSearchResults: " + numberOfSearchResults);
-        assertThat(numberOfSearchResults(numberOfSearchResults).isDisplayed()).as("Найдено: " + numberOfSearchResults).isTrue();
+        assertThat(numberOfSearchResultsTemplate.setLocatorVariable(numberOfSearchResults).isVisible()).as("Найдено: " + numberOfSearchResults).isTrue();
         return this;
     }
 
@@ -179,7 +162,7 @@ Thread.sleep(1000);
 
         List<Double> priceToDouble = new ArrayList<Double>();
         List<WebElement> price = driver.findElements(By.xpath("//div[@class='schema-product__part schema-product__part_2']//span[contains(text(),'р.')]"));
-
+//        price.listOfElements();
         for (WebElement element : price) {
             priceToDouble.add(Double.parseDouble(element.getText().replaceAll("[^,0-9]+", "").replaceAll(",", ".")));
         }
@@ -194,28 +177,23 @@ Thread.sleep(1000);
 
  */
 
-
 /*
         String verifySortingOrder = (priceToDouble.get(1) >= priceToDouble.get(0)) ? "Sorting is correct!" : "Sorting is incorrect!";
         System.out.println(verifySortingOrder);
 
  */
-
         assertThat(priceToDouble.get(1) >= priceToDouble.get(0)).as("Sorting is incorrect! "  + priceToDouble.get(1) + " is not >= " + priceToDouble.get(0)).isTrue();
         log.info("Sorting is Correct: " + priceToDouble.get(1) + " > " + priceToDouble.get(0));
 
         return this;
     }
 
-        public RadiocontrolAirPage verifyThatCompareButtonContainsNumberOfSelectedProducts(int numberOfProducts) throws InterruptedException {
+        public RadiocontrolAirPage verifyThatCompareButtonContainsNumberOfSelectedProducts(int numberOfProducts) {
             log.info("Verify That Compare Button contains " + numberOfProducts + " products");
-
             boolean isDisplayed = false;
             try {
-                new WebDriverWait(driver, 10)
-                        .until(elementToBeClickable(By.xpath(String.format("//div[@class='compare-button compare-button_visible']//span[contains(text(),'%d')]"
-                                ,numberOfProducts))));
-                if (compareButtonWithProducts(numberOfProducts).isDisplayed()) {
+                compareButtonWithProductsTemplate.setLocatorVariable(numberOfProducts);
+                if (compareButtonWithProductsTemplate.setLocatorVariable(numberOfProducts).isVisible()) {
                     isDisplayed = true;
                 }
             } catch(Exception e) {
@@ -223,7 +201,6 @@ Thread.sleep(1000);
         }
 
         assertThat(isDisplayed).as("Cant find Compare Button with " + numberOfProducts + " products").isTrue();
-            log.info("Passed");
             return this;
         }
 

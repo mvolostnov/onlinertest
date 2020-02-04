@@ -8,4 +8,9 @@ public class Link extends Element{
     public String getReference() {
         return getElement().getAttribute("href");
     }
+
+    public Link waitForToBeDisplayed() {
+        super.waitForToBeDisplayed();
+        return this;
+    }
 }

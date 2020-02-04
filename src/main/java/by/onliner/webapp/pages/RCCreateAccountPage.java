@@ -1,15 +1,14 @@
 package by.onliner.webapp.pages;
 
-import com.maxim.testframework.webdriver.WebDriverInstance;
+import com.maxim.testframework.webdriver.Page;
 import by.onliner.test.data.entities.ErrorMessagesData;
 import com.maxim.testframework.webdriver.htmlelements.*;
 import lombok.extern.log4j.Log4j;
-import org.openqa.selenium.By;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @Log4j
-public class RCCreateAccountPage extends WebDriverInstance {
+public class RCCreateAccountPage extends Page {
 
     private final Button doneButton = new Button("//button[@class='mat-royal-button btn-create']");
     private final Input firstNameField  = new Input("//input[@placeholder='First name/Given name']");
@@ -27,7 +26,8 @@ public class RCCreateAccountPage extends WebDriverInstance {
     private final Element securityQuestionFieldTemplate = new Element("//span[contains(text(),'%s')]");
     private final Input answerField = new Input("id=mat-input-5");
     private final CheckBox termsCheckbox = new CheckBox("//mat-checkbox//div[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin']");
-
+    private final Element errorMsgName = new Element(ErrorMessagesData.FIRST_NAME_IS_REQUIRED.getXPath());
+    private final Element errorMsgSurname = new Element(ErrorMessagesData.LAST_NAME_IS_SPACES.getXPath());
 
 
     public RCCreateAccountPage enterFirstName(String firstName) {
@@ -85,8 +85,7 @@ public class RCCreateAccountPage extends WebDriverInstance {
 
     public RCCreateAccountPage createNewPassword(String newPassword) {
 
-        newPasswordField.waitForToBeDisplayed();
-        newPasswordField.setValue(newPassword);
+        newPasswordField.waitForToBeDisplayed().setValue(newPassword);
         log.info("Create new Password: " + newPassword);
         return this;
     }
@@ -134,17 +133,17 @@ public class RCCreateAccountPage extends WebDriverInstance {
 
 
     public RCCreateAccountPage verifyThatErrorMessages() {
-        String url = driver.getCurrentUrl();
+        String url = getUrl();
         assertThat(url).isEqualTo("https://www.stage2.royalcaribbean.com/account/create").as("Account page URL is incorrect: " + url);
         log.info("Verify Account Page URL: " + url);
 
-        String ErrorMsgName = driver.findElement(By.xpath(ErrorMessagesData.FIRST_NAME_IS_REQUIRED.getXPath())).getText();
-        assertThat(driver.findElement(By.xpath(ErrorMessagesData.FIRST_NAME_IS_REQUIRED.getXPath())).isDisplayed()).as("Name Error message is not displayed!").isTrue();
+        String ErrorMsgName = errorMsgName.getText();
+        assertThat(errorMsgName.isVisible()).as("Name Error message is not displayed!").isTrue();
         assertThat(ErrorMsgName).isEqualTo(ErrorMessagesData.FIRST_NAME_IS_REQUIRED.getErrorMessage()).as("Name Error message is incorrect!");
         log.info("Verify First Name Error message: " + ErrorMsgName);
 
-        String ErrorMsgSurname = driver.findElement(By.xpath(ErrorMessagesData.LAST_NAME_IS_SPACES.getXPath())).getText();
-        assertThat(driver.findElement(By.xpath(ErrorMessagesData.LAST_NAME_IS_SPACES.getXPath())).isDisplayed()).as("Surname Error message is not displayed!").isTrue();
+        String ErrorMsgSurname = errorMsgSurname.getText();
+        assertThat(errorMsgSurname.isVisible()).as("Surname Error message is not displayed!").isTrue();
         assertThat(ErrorMsgSurname).isEqualTo(ErrorMessagesData.LAST_NAME_IS_SPACES.getErrorMessage()).as("Surname Error message is incorrect!");
         log.info("Verify Last Name Error message: " + ErrorMsgSurname);
 /*
@@ -155,27 +154,8 @@ public class RCCreateAccountPage extends WebDriverInstance {
         System.out.println("equals: " + SecurityQuestionData.WHAT_WAS_THE_FIRST_ALBUM_YOU_BOUGHT.equals(SecurityQuestionData.WHAT_WAS_THE_FIRST_ALBUM_YOU_BOUGHT));
 
  */
-
         return this;
     }
-
-/*
-    public RCCreateAccountPage toUppCase () {
-
-        System.out.println( (" What was the first concert you attended? " +
-                " What is the name of the street where you first lived? " +
-                " What elementary school did you go to? " +
-                " Where did you take your first vacation? " +
-                " What was the name of your first pet? " +
-                " What was the first album you bought? " +
-                " What was your first car's make or model? " +
-                " Who was your first kiss? " +
-                " What is your travel agent’s last name? ").toUpperCase());
-        return this;
-    }
-
- */
-
 
 }
 

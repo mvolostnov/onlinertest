@@ -2,22 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533c2dc9-c409-4f04-8875-002942aac80f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-01T22-56-49.095radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-01T23-28-43.090radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-01T23-42-21.446radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-01T23-43-43.275radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-01T23-44-52.827radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-02T19-42-05.756radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-02T20-37-13.323radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-03T16-47-20.314radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-03T16-50-19.318radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020-02-03T19-56-02.078radiocontrolAirTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/MyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ComparisonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ComparisonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerCatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/OnlinerHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RCCreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RCCreateAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RadiocontrolAirPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/onliner/webapp/pages/RadiocontrolAirPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/CheckBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/EmailInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/EmailInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxim/testframework/webdriver/htmlelements/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/functional/RadiocontrolAirTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/onliner/test/suites/functional/RadiocontrolAirTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/test/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ComparisonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ComparisonPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/MyAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/MyAccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerCatalogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/OnlinerHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/ProductPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RCCreateAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RCCreateAccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RadiocontrolAirPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/onliner/webapp/pages/RadiocontrolAirPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/CheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/CheckBox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Element.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/EmailInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/EmailInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maxim/testframework/webdriver/htmlelements/Select.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/log_txt.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/log_txt.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/onliner/test/suites/functional/RadiocontrolAirTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578920568464" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1580571202742">
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1580747581231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580571202742" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580747581231" />
     <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580396457387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,26 +291,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578500374042" />
-    <state x="782" y="410" key="FileChooserDialogImpl" timestamp="1580385085589">
+    <state x="782" y="410" key="FileChooserDialogImpl" timestamp="1580731727059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="782" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580385085589" />
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1580570798805">
+    <state x="782" y="410" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580731727059" />
+    <state width="1877" height="136" key="GridCell.Tab.0.bottom" timestamp="1580814378824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580570798805" />
-    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1580570798805">
+    <state width="1877" height="136" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580814378824" />
+    <state width="1877" height="136" key="GridCell.Tab.0.center" timestamp="1580814378824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580570798805" />
-    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1580570798805">
+    <state width="1877" height="136" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580814378824" />
+    <state width="1877" height="136" key="GridCell.Tab.0.left" timestamp="1580814378824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580570798805" />
-    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1580570798805">
+    <state width="1877" height="136" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580814378824" />
+    <state width="1877" height="136" key="GridCell.Tab.0.right" timestamp="1580814378824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580570798805" />
+    <state width="1877" height="136" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580814378824" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1580404582949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,10 +347,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580214242116" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1579252215817">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1580746888930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579252215817" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580746888930" />
+    <state x="812" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1580654428231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580654428231" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/onlinertest$RadiocontrolAirTest.ic" NAME="RadiocontrolAirTest Coverage Results" MODIFIED="1573476543852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

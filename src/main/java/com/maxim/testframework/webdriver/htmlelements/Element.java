@@ -2,23 +2,25 @@ package com.maxim.testframework.webdriver.htmlelements;
 
 import com.maxim.testframework.webdriver.LocatorHandler;
 import com.maxim.testframework.webdriver.WebDriverInstance;
-import lombok.AllArgsConstructor;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import lombok.extern.log4j.Log4j;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
+
 //@AllArgsConstructor
+@Log4j
 public class Element extends WebDriverInstance {
 
     //@Getter
     protected static final LocatorHandler lh = new LocatorHandler();
     protected String locator;
+
 
     public Element(String locator) {
         this.locator = locator;
@@ -38,8 +40,7 @@ public class Element extends WebDriverInstance {
                 return true;
         }
     } catch (NoSuchElementException | StaleElementReferenceException e) {
- //          log.error(e.getMessage(), e);
- //           System.out.println(e.getMessage(), e);
+           log.error(e.getMessage(), e);
             return false;
         }
         return false;
@@ -51,30 +52,19 @@ public class Element extends WebDriverInstance {
                 return true;
             }
         } catch (NoSuchElementException | StaleElementReferenceException e) {
-            //          log.error(e.getMessage(), e);
-            //           System.out.println(e.getMessage(), e);
+                      log.error(e.getMessage(), e);
             return false;
         }
         return false;
     }
 
-
     public void click(){
-  //      if (isVisible()){
             getElement().click();
-   //         return;
         }
- //       throw new IllegalArgumentException("[Element] Element [" + locator + "] is NOT present in DOM or is NOT visible");
- //   }
 
     public String getText(){
- //       if (isVisible()){
         return getElement().getText();
-
                     }
- //       throw new IllegalArgumentException("[Element] Element [" + locator + "] is NOT present in DOM or is NOT visible");
- //   }
-
 
     public Element waitForToBeDisplayed() {
         new WebDriverWait(driver, 10).until(visibilityOfElementLocated(lh.getByType(locator)));
@@ -86,11 +76,28 @@ public class Element extends WebDriverInstance {
         return this;
     }
 
-    public Element selectValue(String locator){
-        getElement().click();
+    public Element scrollTo(){
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(lh.getByType(locator)));
         return this;
     }
 
+
+    public Element clickMenuItem() {
+        ((JavascriptExecutor)driver).executeScript("arguments[0].click();", driver.findElement(lh.getByType(locator)));
+        return this;
+    }
+
+    public Element listOfElements(){
+        List<WebElement> element = driver.findElements(lh.getByType(locator));
+        return this;
+        //return new List<WebElement> =(driver.findElements(By.xpath("//div[@class='schema-product__part schema-product__part_2']//span[contains(text(),'р.')]")));
+    }
+
+    public Element mouseHover(){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(getElement()).perform();
+        return this;
+    }
 
 
 }

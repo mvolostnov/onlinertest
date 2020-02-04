@@ -80,14 +80,14 @@ public class BaseTest {
 
         extentTest = extentReports.createTest(getClass().getName());
         WebDriverInstance.getDriver().get(baseUrl);
-        log.info("Open :" + baseUrl);
+        log.info("Open: " + baseUrl);
 
         }
 
 
     @AfterSuite(alwaysRun = true)
     public void browserTearDown() {
-        log.info("Close browser" + WebDriverInstance.getDriver());
+        log.info("Close browser " + WebDriverInstance.getDriver());
         WebDriverInstance.getDriver().quit();
         WebDriverInstance.setDriver(null);
 

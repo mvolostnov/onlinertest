@@ -1,52 +1,35 @@
 package by.onliner.webapp.pages;
 
 import com.maxim.testframework.webdriver.WebDriverInstance;
+import com.maxim.testframework.webdriver.htmlelements.Element;
 import lombok.extern.log4j.Log4j;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 @Log4j
 public class OnlinerCatalogPage extends WebDriverInstance {
 
-    public WebElement catalogCategoryName (String catalogCategoryName) {
-        return driver.findElement(By.xpath(String.format("//ul[contains(@class,'catalog-navigation-classifier')]//span[text()='%s']", catalogCategoryName)));
-    }
-
-    public WebElement catalogSubCategoryName(String catalogSubCategoryName) {
-        new WebDriverWait(driver, 10)
-                .until(visibilityOfElementLocated(By.xpath(String.format("//div[@class='catalog-navigation-list  catalog-navigation-list_active catalog-navigation-list_opened']//div[contains(text(),'%s')]"
-                        , catalogSubCategoryName))));
-    return driver.findElement(By.xpath(String.format("//div[@class='catalog-navigation-list  catalog-navigation-list_active catalog-navigation-list_opened']//div[contains(text(),'%s')]"
-            , catalogSubCategoryName)));
-    }
-
-    public WebElement productType(String productType) {
-        return driver.findElement(By.xpath(String.format("//div[@class='catalog-navigation-list  catalog-navigation-list_active catalog-navigation-list_opened']//span[contains(text(),'%s')]"
-                , productType)));
-    }
+//    public WebElement catalogCategoryName (String catalogCategoryName) {
+//        return driver.findElement(By.xpath(String.format("//ul[contains(@class,'catalog-navigation-classifier')]//span[text()='%s']", catalogCategoryName)));
+//    }
+    private final Element catalogCategoryNameTemplate = new Element("//ul[contains(@class,'catalog-navigation-classifier')]//span[text()='%s']");
+    private final Element catalogSubCategoryNameTemplate = new Element("//div[@class='catalog-navigation-list  catalog-navigation-list_active catalog-navigation-list_opened']//div[contains(text(),'%s')]");
+    private final Element productTypeTemplate = new Element("//div[@class='catalog-navigation-list  catalog-navigation-list_active catalog-navigation-list_opened']//span[contains(text(),'%s')]");
 
     public OnlinerCatalogPage selectCatalogCategory (String catalogCategoryName) {
-        catalogCategoryName(catalogCategoryName).click();
+        catalogCategoryNameTemplate.setLocatorVariable(catalogCategoryName).waitForToBeDisplayed().click();
         log.info("Select Catalog Category: " + catalogCategoryName);
-
         return this;
     }
 
     public OnlinerCatalogPage selectCatalogSubCategory(String catalogSubCategoryName) {
-        catalogSubCategoryName(catalogSubCategoryName).click();
+        catalogSubCategoryNameTemplate.setLocatorVariable(catalogSubCategoryName).click();
         log.info("Select Catalog SubCategory: " + catalogSubCategoryName);
-
         return this;
     }
 
     public RadiocontrolAirPage selectProductType(String productType) {
-        productType(productType).click();
+        productTypeTemplate.setLocatorVariable(productType).click();
         log.info("Select Catalog SubCategory: " + productType);
-
-        return new RadiocontrolAirPage(driver);
+        return new RadiocontrolAirPage();
     }
 
 }

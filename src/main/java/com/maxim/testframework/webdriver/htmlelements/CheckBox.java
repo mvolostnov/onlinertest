@@ -43,4 +43,9 @@ public class CheckBox extends Element{
         }
     }
 
+    public CheckBox waitForToBeDisplayed() {
+        super.waitForToBeDisplayed();
+        return this;
+    }
+
 }

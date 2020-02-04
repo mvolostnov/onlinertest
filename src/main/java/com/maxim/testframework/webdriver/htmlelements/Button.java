@@ -10,12 +10,12 @@ public class Button extends Element {
         super(locator);
     }
 
-    /*
+
     public Button waitForToBeDisplayed() {
        super.waitForToBeDisplayed();
         return this;
     }
-     */
+
 
 
 }

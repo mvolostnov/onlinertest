@@ -17,4 +17,9 @@ public class EmailInput extends Element {
 
     }
 
+    public EmailInput waitForToBeDisplayed() {
+        super.waitForToBeDisplayed();
+        return this;
+    }
+
 }
